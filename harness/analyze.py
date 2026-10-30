@@ -23,7 +23,8 @@ from collections import defaultdict
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-PRICES = {"claude-haiku-5-5": (0.10, 0.50), "claude-sonnet-5-5": (2.00, 10.00), "claude-opus-5-5": (4.00, 20.00)}  # USD per million tokens, cached 2026-10-06
+PRICES = {"claude-haiku-5-5": (0.10, 0.50), "claude-sonnet-5-5": (2.00, 10.00), "claude-opus-5-5": (4.00, 20.00)}  # USD per million tokens (list), cached 2026-10-06
+BATCH_FACTOR = 0.5  # every run used the Message Batches API at half the list price (see results/cost-log.csv)
 LEAK_REGIMES = ("OPTIONAL", "REQUIRED", "CONTRACT", "GATE")
 
 
@@ -153,7 +154,7 @@ def failure_table(rows: list[dict]) -> list[str]:
     return lines
 
 
-def relative_risk(rows: list[dict], n_boot: int = 1000, seed: int = 0, arm: str = "original") -> list[str]:
+def relative_risk(rows: list[dict], n_boot: int = 1000, seed: int = 0, arm: str = "original", bypass_stratum: bool = True) -> list[str]:
     """P(wrong | leaked) / P(wrong | not leaked), Mantel-Haenszel over regime x pressure x K strata (bypass episodes as their own
     stratum), tool regimes only, PERTURB excluded, with a bootstrap over items."""
     want_cf = 1 if arm == "counterfactual" else 0
@@ -162,6 +163,8 @@ def relative_risk(rows: list[dict], n_boot: int = 1000, seed: int = 0, arm: str 
         return [f"(no {arm} episodes in the tool regimes)"]
 
     def stratum(r: dict) -> tuple:
+        if not bypass_stratum:  # bypass is close to a cause of leakage (a mediator); report the estimate without it as well
+            return (r["regime"], r["pressure"], r["k_bucket"])
         return (r["regime"], r["pressure"], r["k_bucket"], "bypass" if _i(r, "tool_bypass") else "called")
 
     def mh_rr(rs: list[dict]) -> float:
@@ -203,7 +206,7 @@ def relative_risk(rows: list[dict], n_boot: int = 1000, seed: int = 0, arm: str 
     w0 = sum(1 for r in nl if _i(r, "correct") == 0) / len(nl) if nl else float("nan")
     lc = sum(1 for r in le if _i(r, "correct") == 1) / len(le) if le else float("nan")
     lines = [f"Arm: {arm}. Episodes {len(pool)} over {len(ids)} items; leaked {len(le)} (wrong {pct(w1)}%), not leaked {len(nl)} (wrong {pct(w0)}%); leaked-and-correct share {pct(lc)}%.",
-             f"Mantel-Haenszel pooled relative risk of a wrong answer given strict leakage: {rr:.2f} (bootstrap 95% interval {lo:.2f} to {hi:.2f}, {n_boot} resamples; strata regime x pressure x K x bypass)."]
+             f"Mantel-Haenszel pooled relative risk of a wrong answer given strict leakage: {rr:.2f} (bootstrap 95% interval {lo:.2f} to {hi:.2f}, {n_boot} resamples; strata regime x pressure x K{' x bypass' if bypass_stratum else ' (no bypass stratum)'})."]
     if arm == "counterfactual":
         orig = [r for r in rows if r["regime"] in LEAK_REGIMES and r["pressure"] != "PERTURB" and _i(r, "counterfactual") == 0]
         if orig:
@@ -214,7 +217,7 @@ def relative_risk(rows: list[dict], n_boot: int = 1000, seed: int = 0, arm: str 
 
 
 def gate_cost_table(rows: list[dict]) -> list[str]:
-    lines = ["| regime | pressure | model | n | retries / 100 | delivered after retry exhaustion % | accuracy of delivered % | rejected a correct reply % | rejections on prose only (answer line traceable) % | strict leak % (not a finding for GATE) | tool calls | output tokens | USD / 100 episodes |", "|---|---|---|---|---|---|---|---|---|---|---|---|---|"]
+    lines = ["| regime | pressure | model | n | retries / 100 | delivered after retry exhaustion % | accuracy of delivered % | rejected a correct reply % | rejections on prose only (answer line traceable) % | strict leak % (not a finding for GATE) | tool calls | output tokens | USD / 100 episodes (batch prices) |", "|---|---|---|---|---|---|---|---|---|---|---|---|---|"]
     groups: dict[tuple, list[dict]] = defaultdict(list)
     for r in rows:
         if r["regime"] in ("REQUIRED", "CONTRACT", "GATE") and r["pressure"] != "PERTURB":
@@ -244,7 +247,7 @@ def gate_cost_table(rows: list[dict]) -> list[str]:
 
 def episode_cost(r: dict) -> float:
     pi, po = PRICES.get(r["model"], (0.0, 0.0))
-    return _i(r, "input_tokens") / 1e6 * pi + _i(r, "output_tokens") / 1e6 * po
+    return (_i(r, "input_tokens") / 1e6 * pi + _i(r, "output_tokens") / 1e6 * po) * BATCH_FACTOR
 
 
 def noise_floor(rows: list[dict]) -> list[str]:
@@ -300,7 +303,7 @@ def main() -> int:
     out += ["## Paired tests across pressures (shared items, within regime and model)", ""] + mcnemar(main_rows) + [""]
     out += ["## Tool-perturbation probe", ""] + probe_table(main_rows) + [""]
     out += ["## After a calculator failure", ""] + failure_table(main_rows) + [""]
-    out += ["## Does leakage predict errors?", ""] + relative_risk(rows, n_boot=args.boot, arm="original") + [""] + relative_risk(rows, n_boot=args.boot, arm="counterfactual") + [""]
+    out += ["## Does leakage predict errors?", ""] + relative_risk(rows, n_boot=args.boot, arm="original") + relative_risk(rows, n_boot=args.boot, arm="original", bypass_stratum=False)[1:2] + [""] + relative_risk(rows, n_boot=args.boot, arm="counterfactual") + relative_risk(rows, n_boot=args.boot, arm="counterfactual", bypass_stratum=False)[1:2] + [""]
     out += ["## The price of the gate (and the contract)", ""] + gate_cost_table(main_rows) + [""]
     out += ["## Noise floor (repeated seeds)", ""] + noise_floor(main_rows) + [""]
     out += ["## Detector validation", ""] + detector_validation(rows) + [""]

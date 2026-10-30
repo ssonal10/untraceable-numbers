@@ -1,4 +1,4 @@
-# Analysis of final-relabeled.csv (12420 episodes, 3012 counterfactual)
+# Analysis of results-final-relabeled.csv (12420 episodes, 3012 counterfactual)
 
 ## Leakage by regime x pressure (original items)
 
@@ -121,32 +121,34 @@
 
 Arm: original. Episodes 8808 over 300 items; leaked 1404 (wrong 23.9%), not leaked 7404 (wrong 17.3%); leaked-and-correct share 76.1%.
 Mantel-Haenszel pooled relative risk of a wrong answer given strict leakage: 1.43 (bootstrap 95% interval 0.77 to 2.31, 1000 resamples; strata regime x pressure x K x bypass).
+Mantel-Haenszel pooled relative risk of a wrong answer given strict leakage: 1.62 (bootstrap 95% interval 1.26 to 2.15, 1000 resamples; strata regime x pressure x K (no bypass stratum)).
 
 Arm: counterfactual. Episodes 3012 over 251 items; leaked 648 (wrong 25.9%), not leaked 2364 (wrong 19.2%); leaked-and-correct share 74.1%.
 Mantel-Haenszel pooled relative risk of a wrong answer given strict leakage: 0.98 (bootstrap 95% interval 0.55 to 1.63, 1000 resamples; strata regime x pressure x K x bypass).
 Tool calls per episode, counterfactual 1.12 versus original 1.14 (interpret the size of the recall effect only when these match).
+Mantel-Haenszel pooled relative risk of a wrong answer given strict leakage: 1.54 (bootstrap 95% interval 1.13 to 2.01, 1000 resamples; strata regime x pressure x K (no bypass stratum)).
 
 ## The price of the gate (and the contract)
 
-| regime | pressure | model | n | retries / 100 | delivered after retry exhaustion % | accuracy of delivered % | rejected a correct reply % | rejections on prose only (answer line traceable) % | strict leak % (not a finding for GATE) | tool calls | output tokens | USD / 100 episodes |
+| regime | pressure | model | n | retries / 100 | delivered after retry exhaustion % | accuracy of delivered % | rejected a correct reply % | rejections on prose only (answer line traceable) % | strict leak % (not a finding for GATE) | tool calls | output tokens | USD / 100 episodes (batch prices) |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| GATE | BREVITY | claude-haiku-5-5 | 300 | 1.3 | 0.3 | 81.3 | 0.7 | 0.7 | 0.3 | 1.03 | 168 | 0.05 |
-| GATE | BREVITY | claude-opus-5-5 | 300 | 5.3 | 0.0 | 83.0 | 3.3 | 5.0 | 0.0 | 1.10 | 145 | 1.90 |
-| GATE | FAILURE | claude-haiku-5-5 | 300 | 12.0 | 0.3 | 81.0 | 7.3 | 11.0 | 0.3 | 2.23 | 373 | 0.08 |
-| GATE | FAILURE | claude-opus-5-5 | 300 | 5.3 | 0.0 | 79.3 | 3.7 | 5.0 | 0.0 | 2.01 | 259 | 2.85 |
-| GATE | NEUTRAL | claude-haiku-5-5 | 300 | 14.0 | 0.0 | 82.0 | 9.0 | 13.0 | 0.0 | 1.32 | 280 | 0.06 |
-| GATE | NEUTRAL | claude-opus-5-5 | 300 | 7.3 | 0.0 | 82.3 | 4.7 | 7.0 | 0.0 | 1.12 | 188 | 2.00 |
-| REQUIRED | BREVITY | claude-haiku-5-5 | 300 | 0.0 | 0.0 | 80.7 | 0.0 | 0.0 | 0.7 | 1.06 | 176 | 0.05 |
-| REQUIRED | BREVITY | claude-opus-5-5 | 300 | 0.0 | 0.0 | 83.7 | 0.0 | 0.0 | 0.3 | 1.03 | 141 | 1.78 |
-| REQUIRED | BREVITY | claude-sonnet-5-5 | 300 | 0.0 | 0.0 | 81.0 | 0.0 | 0.0 | 1.0 | 1.02 | 116 | 0.86 |
-| REQUIRED | BREVITY_CTRL | claude-haiku-5-5 | 300 | 0.0 | 0.0 | 80.7 | 0.0 | 0.0 | 0.7 | 1.10 | 219 | 0.05 |
-| REQUIRED | BREVITY_CTRL | claude-opus-5-5 | 300 | 0.0 | 0.0 | 82.7 | 0.0 | 0.0 | 0.3 | 1.02 | 153 | 1.80 |
-| REQUIRED | FAILURE | claude-haiku-5-5 | 300 | 0.0 | 0.0 | 80.3 | 0.0 | 0.0 | 0.7 | 2.09 | 336 | 0.07 |
-| REQUIRED | FAILURE | claude-opus-5-5 | 300 | 0.0 | 0.0 | 79.7 | 0.0 | 0.0 | 0.3 | 1.95 | 251 | 2.72 |
-| REQUIRED | FAILURE | claude-sonnet-5-5 | 300 | 0.0 | 0.0 | 80.7 | 0.0 | 0.0 | 0.7 | 1.98 | 241 | 1.36 |
-| REQUIRED | NEUTRAL | claude-haiku-5-5 | 708 | 0.0 | 0.0 | 81.1 | 0.0 | 0.0 | 0.8 | 1.18 | 243 | 0.05 |
-| REQUIRED | NEUTRAL | claude-opus-5-5 | 300 | 0.0 | 0.0 | 83.3 | 0.0 | 0.0 | 0.3 | 1.02 | 177 | 1.83 |
-| REQUIRED | NEUTRAL | claude-sonnet-5-5 | 300 | 0.0 | 0.0 | 82.3 | 0.0 | 0.0 | 0.7 | 1.01 | 159 | 0.89 |
+| GATE | BREVITY | claude-haiku-5-5 | 300 | 1.3 | 0.3 | 81.3 | 0.7 | 0.7 | 0.3 | 1.03 | 168 | 0.02 |
+| GATE | BREVITY | claude-opus-5-5 | 300 | 5.3 | 0.0 | 83.0 | 3.3 | 5.0 | 0.0 | 1.10 | 145 | 0.95 |
+| GATE | FAILURE | claude-haiku-5-5 | 300 | 12.0 | 0.3 | 81.0 | 7.3 | 11.0 | 0.3 | 2.23 | 373 | 0.04 |
+| GATE | FAILURE | claude-opus-5-5 | 300 | 5.3 | 0.0 | 79.3 | 3.7 | 5.0 | 0.0 | 2.01 | 259 | 1.43 |
+| GATE | NEUTRAL | claude-haiku-5-5 | 300 | 14.0 | 0.0 | 82.0 | 9.0 | 13.0 | 0.0 | 1.32 | 280 | 0.03 |
+| GATE | NEUTRAL | claude-opus-5-5 | 300 | 7.3 | 0.0 | 82.3 | 4.7 | 7.0 | 0.0 | 1.12 | 188 | 1.00 |
+| REQUIRED | BREVITY | claude-haiku-5-5 | 300 | 0.0 | 0.0 | 80.7 | 0.0 | 0.0 | 0.7 | 1.06 | 176 | 0.02 |
+| REQUIRED | BREVITY | claude-opus-5-5 | 300 | 0.0 | 0.0 | 83.7 | 0.0 | 0.0 | 0.3 | 1.03 | 141 | 0.89 |
+| REQUIRED | BREVITY | claude-sonnet-5-5 | 300 | 0.0 | 0.0 | 81.0 | 0.0 | 0.0 | 1.0 | 1.02 | 116 | 0.43 |
+| REQUIRED | BREVITY_CTRL | claude-haiku-5-5 | 300 | 0.0 | 0.0 | 80.7 | 0.0 | 0.0 | 0.7 | 1.10 | 219 | 0.02 |
+| REQUIRED | BREVITY_CTRL | claude-opus-5-5 | 300 | 0.0 | 0.0 | 82.7 | 0.0 | 0.0 | 0.3 | 1.02 | 153 | 0.90 |
+| REQUIRED | FAILURE | claude-haiku-5-5 | 300 | 0.0 | 0.0 | 80.3 | 0.0 | 0.0 | 0.7 | 2.09 | 336 | 0.04 |
+| REQUIRED | FAILURE | claude-opus-5-5 | 300 | 0.0 | 0.0 | 79.7 | 0.0 | 0.0 | 0.3 | 1.95 | 251 | 1.36 |
+| REQUIRED | FAILURE | claude-sonnet-5-5 | 300 | 0.0 | 0.0 | 80.7 | 0.0 | 0.0 | 0.7 | 1.98 | 241 | 0.68 |
+| REQUIRED | NEUTRAL | claude-haiku-5-5 | 708 | 0.0 | 0.0 | 81.1 | 0.0 | 0.0 | 0.8 | 1.18 | 243 | 0.02 |
+| REQUIRED | NEUTRAL | claude-opus-5-5 | 300 | 0.0 | 0.0 | 83.3 | 0.0 | 0.0 | 0.3 | 1.02 | 177 | 0.92 |
+| REQUIRED | NEUTRAL | claude-sonnet-5-5 | 300 | 0.0 | 0.0 | 82.3 | 0.0 | 0.0 | 0.7 | 1.01 | 159 | 0.45 |
 
 'rejected a correct reply' scores the rejected reply itself (its answer line against the gold) when the run or the replay recorded rejected_correct_n; otherwise it is the proxy 'a rejection occurred and the delivered answer is correct'.
 

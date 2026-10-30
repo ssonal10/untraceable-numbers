@@ -26,6 +26,10 @@ paper can report a sensitivity table.
 
 from __future__ import annotations
 
+# Version of the detector that produced every released label (results/, reports/). Bump it whenever a change
+# to extraction, matching or the reference sets can change a label, and log it with each gate or audit decision.
+DETECTOR_VERSION = "1.0"
+
 import itertools
 import math
 import re

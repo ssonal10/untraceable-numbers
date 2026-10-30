@@ -9,9 +9,13 @@ An *arithmetic leak* is a number in an agent's reply that is neither a copy of t
 | Folder | What |
 |---|---|
 | `harness/` | Calculator tool, detector, agent loop, prompts (`agent.py`), Message Batches runner, replay, analysis, self-tests, L1 calibration, sensitivity, labeling export. Standard-library Python 3.11+ except the API client. See `harness/README.md`. |
-| `results/` | `results-final-relabeled.csv` (12,420 grid and arm episodes, one row each, relabeled with the final detector), `pilot-relabeled.csv` (126 pilot episodes), table and figure data, `all-analysis.md`, `labels-to-annotate.csv` (stratified sample for human validation, annotator columns empty), `cost-log.csv` (one row per batch with batch id, tokens and price). |
+| `results/` | `results-final-relabeled.csv` (12,420 grid and arm episodes, one row each, relabeled with the final detector), `pilot-relabeled.csv` (126 pilot episodes), table and figure data, `all-analysis.md`, `labels-to-annotate.csv` (stratified sample for human validation, annotator columns empty), `cost-log.csv` (one row per batch with batch id, tokens and price), `mock-validation.csv` (scripted-mock episodes with planted leaks), `counterfactual-skips.csv` (the 49 items the counterfactual arm skipped, with reasons). |
 | `traces/` | Full episode traces as gzipped JSONL (every turn, tool call and returned value), plus the batch-runner logs (local paths replaced by `<run-dir>`). |
-| `reports/` | Detector self-tests, L1 chance-match calibration (FinQA, TAT-QA) and the detector sensitivity table. |
+| `reports/` | Detector self-tests, L1 chance-match calibration (FinQA, TAT-QA), the detector sensitivity table, the scripted-mock validation (`mock-validation.md`) and exclusion counts with counterfactual skip reasons (`exclusions-and-cf-skips.md`). |
+
+## Detector version
+
+Every released label was produced by detector version 1.0 (`DETECTOR_VERSION` in `harness/detector.py`), the version tagged `v1.0` in this repository. Labels are a function of the trace and the detector version; rerun `replay.py` to relabel the traces under a later version.
 
 ## Data
 
@@ -24,7 +28,7 @@ Sample: 150 items per dataset, stratified by gold operation count K (50 each for
 
 ## Models
 
-claude-haiku-5-5 (small), claude-sonnet-5-5 (mid; OPTIONAL and REQUIRED rows only) and claude-opus-5-5 (large), effort low, at most 4,096 output tokens, Anthropic Message Batches API, SDK 2.1.0, one run per cell. Runs on 2026-10-21 and 2026-10-24; 12,420 episodes plus a 126-episode pilot; 61.76 USD at batch prices over 63 batches (`results/cost-log.csv`).
+claude-haiku-5-5 (small), claude-sonnet-5-5 (mid; OPTIONAL and REQUIRED rows only) and claude-opus-5-5 (large), effort low, at most 4,096 output tokens, Anthropic Message Batches API, SDK 2.1.0, one run per cell. Runs on 2026-10-21 and 2026-10-24; 12,420 episodes plus a 126-episode pilot; 61.76 USD at batch prices over 63 batches (`results/cost-log.csv`). Temperature is not set (these models reject the parameter), so the API default applies; the `seed` column is a replicate index, not an API parameter. USD figures in `all-analysis.md` are at batch prices, half the list price.
 
 ## Reproduce
 
@@ -48,6 +52,8 @@ python3 -I figure_data.py relabeled.csv --out-dir ../results
 python3 -I selftest.py --markdown selftest-report.md
 python3 -I calibrate_l1.py --dataset finqa --n 150 --markdown l1-chance-match.md   # and --dataset tatqa
 python3 -I sensitivity.py ../traces/grid-*.jsonl --out-dir sens --markdown sensitivity.md
+python3 -I run_sweep.py --dry-run --datasets finqa,tatqa --n-per-bucket 10 --out mock.csv   # scripted mock, no API
+python3 -I analyze.py mock.csv                                 # ends with the detector validation
 
 # 4. New runs (costs money): put an Anthropic API key in ~/.config/untraceable-numbers/anthropic_key
 python3 run_batches.py --backend anthropic --model claude-haiku-5-5 --datasets finqa,tatqa --n-per-bucket 50 \
@@ -55,7 +61,7 @@ python3 run_batches.py --backend anthropic --model claude-haiku-5-5 --datasets f
     --cost-log ../results/cost-log.csv --cap-usd 5 --tag my-run
 ```
 
-Check each script's `--help` for the exact options. Seventeen of the 900 small-tier GATE episodes are marked `replay_diverged`: their live gate rejections used an earlier extractor version (see the paper, Section VII).
+Check each script's `--help` for the exact options. Seventeen of the 900 small-tier GATE episodes are marked `replay_diverged`: their live gate rejections used an earlier extractor version (see the paper, Section 7).
 
 ## AI assistance
 
@@ -67,4 +73,4 @@ MIT (see `LICENSE`) for the code and the results files. The datasets keep their 
 
 ## Citation
 
-S. Sonal, "Untraceable Numbers: Verifying the Provenance of Computed Values in Tool-Using LLM Agents," 2026 (under review).
+S. Sonal, "Untraceable Numbers: Verifying the Provenance of Computed Values in Tool-Using LLM Agents," 2026 (under review). Code and data: tag `v1.0` of this repository.
