@@ -32,4 +32,6 @@ By regime:
 | OPTIONAL | 420 | 178 | 0 | 10 | 232 |
 | REQUIRED | 420 | 159 | 0 | 6 | 255 |
 
+29 of the 32 false positives are GATE episodes. In each, the mock's reply was rejected and retried, the delivered answer matches a tainted tool output (L4), and the mock had cleared its record of planted leaks when the gate rejected the reply (`harness/clients.py`, the `gate_rejected` branch). The flag follows the definition, which closes over the whole episode trace; the mock's truth covers only the last scripted attempt. Outside GATE, precision is 761 of 764 (99.6 percent).
+
 An earlier dry run (2,280 episodes including ConvFinQA, before the currency-prefix, scale and strict-metric fixes described in the paper, Section 7) gave 96.5 percent precision and 85.3 percent recall. The figures above replace it; the paper cites these.

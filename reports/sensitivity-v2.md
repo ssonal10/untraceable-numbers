@@ -12,4 +12,4 @@
 | no provenance closure (L4 off) | 0.0/0.0 | 49.6/62.7 | 0.4/11.6 | 44.3/50.4 | 0.0/9.8 | 0.0/0.0 | 30.7/44.8 | 0.0/10.8 |
 | exclusions off | = default | | | | | | | |
 
-n: small GATE 900, OPT 1200, REQ 1608; mid OPT 900, REQ 900; large GATE 900, OPT 1200, REQ 1200. Default row equals runs/all-analysis.md "model x regime" (small OPT loose 62.75 rounds to 62.7 there, 62.8 here).
+n: small GATE 900, OPT 1200, REQ 1608; mid OPT 900, REQ 900; large GATE 900, OPT 1200, REQ 1200. Default row equals results/all-analysis.md "model x regime" (small OPT loose 62.75 rounds to 62.7 there, 62.8 here).

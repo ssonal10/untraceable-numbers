@@ -125,7 +125,7 @@ Mantel-Haenszel pooled relative risk of a wrong answer given strict leakage: 1.6
 
 Arm: counterfactual. Episodes 3012 over 251 items; leaked 648 (wrong 25.9%), not leaked 2364 (wrong 19.2%); leaked-and-correct share 74.1%.
 Mantel-Haenszel pooled relative risk of a wrong answer given strict leakage: 0.98 (bootstrap 95% interval 0.55 to 1.63, 1000 resamples; strata regime x pressure x K x bypass).
-Tool calls per episode, counterfactual 1.12 versus original 1.14 (interpret the size of the recall effect only when these match).
+Tool calls per episode (all tool regimes and pressures pooled, so the original arm includes GATE; the paper quotes OPTIONAL by tier, see reports/paper-numbers.md), counterfactual 1.12 versus original 1.14 (interpret the size of the recall effect only when these match).
 Mantel-Haenszel pooled relative risk of a wrong answer given strict leakage: 1.54 (bootstrap 95% interval 1.13 to 2.01, 1000 resamples; strata regime x pressure x K (no bypass stratum)).
 
 ## The price of the gate (and the contract)

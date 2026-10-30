@@ -212,7 +212,7 @@ def relative_risk(rows: list[dict], n_boot: int = 1000, seed: int = 0, arm: str 
         if orig:
             c1 = sum(_i(r, "n_tool_calls") for r in pool) / len(pool)
             c0 = sum(_i(r, "n_tool_calls") for r in orig) / len(orig)
-            lines.append(f"Tool calls per episode, counterfactual {c1:.2f} versus original {c0:.2f} (interpret the size of the recall effect only when these match).")
+            lines.append(f"Tool calls per episode (all tool regimes and pressures pooled, so the original arm includes GATE; the paper quotes OPTIONAL by tier, see reports/paper-numbers.md), counterfactual {c1:.2f} versus original {c0:.2f} (interpret the size of the recall effect only when these match).")
     return lines
 
 

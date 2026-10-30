@@ -18,11 +18,13 @@ k (operation count), needs_arithmetic.
 
 from __future__ import annotations
 
+import hashlib
 import io
 import json
 import os
 import random
 import re
+import sys
 import urllib.request
 import zipfile
 from collections import defaultdict
@@ -34,9 +36,14 @@ from calculator import Calculator, clean_expression
 from detector import extract_numbers
 
 URLS = {
-    "finqa": "https://raw.githubusercontent.com/czyssrs/FinQA/main/dataset/{split}.json",
+    # pinned to the commits whose files the study used (blob hashes checked on 2026-10-29); SHA-256 below
+    "finqa": "https://raw.githubusercontent.com/czyssrs/FinQA/0f16e2867befa6840783e58be38c9efb9229d742/dataset/{split}.json",
     "convfinqa": "https://github.com/czyssrs/ConvFinQA/raw/main/data.zip",
-    "tatqa": "https://raw.githubusercontent.com/NExTplusplus/TAT-QA/master/dataset_raw/tatqa_dataset_{split}.json",
+    "tatqa": "https://raw.githubusercontent.com/NExTplusplus/TAT-QA/870accc41953dcde885aabeb963d94aabdc0fbc3/dataset_raw/tatqa_dataset_{split}.json",
+}
+SHA256 = {  # files used in the study; fetch() warns when a cached or downloaded file differs
+    ("finqa", "test"): "831dbfb2e785dbc227f895ce3f24046433467aec67b09db2bd6ac7692a8a30dc",
+    ("tatqa", "dev"): "8da095a819af6db3c14877c6df2d4d29960e41d1a63dd1fa853507bd2a616af5",
 }
 DEFAULT_SPLITS = {"finqa": "test", "convfinqa": "dev", "tatqa": "dev"}
 
@@ -106,6 +113,11 @@ def fetch(dataset: str, split: str | None = None, cache: Path | None = None) -> 
     target = sub / name
     if not target.exists():
         urllib.request.urlretrieve(URLS[dataset].format(split=split), target)
+    want = SHA256.get((dataset, split))
+    if want:
+        got = hashlib.sha256(target.read_bytes()).hexdigest()
+        if got != want:
+            print(f"warning: {target} has SHA-256 {got}, not the file used in the study ({want})", file=sys.stderr)
     return target
 
 
