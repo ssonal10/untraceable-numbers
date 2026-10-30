@@ -1,0 +1,37 @@
+finqa: loaded 1147, buckets {'1': 654, '2': 409, '3+': 84}; sampled 6
+tatqa: loaded 718, buckets {'1': 374, '2': 281, '3+': 63}; sampled 6
+36 episodes to run over 3 conditions (0 already in <run-dir>/pilot-opus.csv)
+model: {'id': 'claude-opus-5-5', 'display_name': 'Claude Opus 5.5', 'created_at': '2026-09-21 16:24:00+00:00'}
+wave 1: 36 requests; spent so far 0.01 USD; projected for this wave 0.29 USD (cap 80.00)
+  batch msgbatch_01V56pRG52osgMWDj69PGNEz submitted with 36 requests; polling every 20s
+  0s: in_progress, processing 36, succeeded 0, errored 0
+  20s: in_progress, processing 36, succeeded 0, errored 0
+  40s: in_progress, processing 36, succeeded 0, errored 0
+  61s: in_progress, processing 36, succeeded 0, errored 0
+  81s: in_progress, processing 36, succeeded 0, errored 0
+  101s: in_progress, processing 36, succeeded 0, errored 0
+  wave 1 batch done: 36 ok, 0 errors, tokens in 61,218 out 2,254, cost 0.1450 USD, cumulative 0.16 USD
+  open episodes after wave 1: 36
+wave 2: 36 requests; spent so far 0.16 USD; projected for this wave 0.30 USD (cap 80.00)
+  batch msgbatch_01Gzs4K29yeVKy9spTgX1gwa submitted with 36 requests; polling every 20s
+  0s: in_progress, processing 36, succeeded 0, errored 0
+  20s: in_progress, processing 36, succeeded 0, errored 0
+  40s: in_progress, processing 36, succeeded 0, errored 0
+  61s: in_progress, processing 36, succeeded 0, errored 0
+  81s: in_progress, processing 36, succeeded 0, errored 0
+  101s: in_progress, processing 36, succeeded 0, errored 0
+  122s: in_progress, processing 36, succeeded 0, errored 0
+  wave 2 batch done: 36 ok, 0 errors, tokens in 64,110 out 2,450, cost 0.1527 USD, cumulative 0.32 USD
+  open episodes after wave 2: 15
+wave 3: 15 requests; spent so far 0.32 USD; projected for this wave 0.13 USD (cap 80.00)
+  batch msgbatch_01VdXxWeDTE6FusyF6yrXhrV submitted with 15 requests; polling every 20s
+  0s: in_progress, processing 15, succeeded 0, errored 0
+  20s: in_progress, processing 15, succeeded 0, errored 0
+  40s: in_progress, processing 15, succeeded 0, errored 0
+  61s: in_progress, processing 15, succeeded 0, errored 0
+  81s: in_progress, processing 15, succeeded 0, errored 0
+  102s: in_progress, processing 15, succeeded 0, errored 0
+  122s: in_progress, processing 15, succeeded 0, errored 0
+  wave 3 batch done: 15 ok, 0 errors, tokens in 26,968 out 1,539, cost 0.0693 USD, cumulative 0.39 USD
+  open episodes after wave 3: 0
+done: 36 episodes in <run-dir>/pilot-opus.csv; cumulative spend 0.39 USD (cap 80.00)

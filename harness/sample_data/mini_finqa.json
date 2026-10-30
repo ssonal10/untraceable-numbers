@@ -1,0 +1,74 @@
+[
+  {
+    "id": "mini-001",
+    "filename": "mini/synthetic-1",
+    "pre_text": ["the company reports revenue for the two years in the table below ( in millions )."],
+    "post_text": ["all figures are unaudited."],
+    "table": [["", "2019", "2018"], ["revenue", "$ 5829", "$ 5735"], ["operating income", "$ 912", "$ 870"]],
+    "qa": {"question": "what was the change in revenue from 2018 to 2019?", "program": "subtract(5829, 5735)", "exe_ans": 94.0, "answer": "94"}
+  },
+  {
+    "id": "mini-002",
+    "filename": "mini/synthetic-2",
+    "pre_text": ["the company reports revenue for the two years in the table below ( in millions )."],
+    "post_text": [],
+    "table": [["", "2019", "2018"], ["revenue", "$ 5829", "$ 5735"], ["operating income", "$ 912", "$ 870"]],
+    "qa": {"question": "what was the percentage change in revenue from 2018 to 2019?", "program": "subtract(5829, 5735), divide(#0, 5735)", "exe_ans": 0.01639, "answer": "1.6%"}
+  },
+  {
+    "id": "mini-003",
+    "filename": "mini/synthetic-3",
+    "pre_text": ["shares outstanding and dividends per share are shown below."],
+    "post_text": ["dividends are paid quarterly."],
+    "table": [["", "2020", "2019"], ["shares outstanding ( millions )", "420", "436"], ["dividend per share", "$ 1.40", "$ 1.20"]],
+    "qa": {"question": "what was the total dividend paid in 2020, in millions?", "program": "multiply(420, 1.40)", "exe_ans": 588.0, "answer": "588"}
+  },
+  {
+    "id": "mini-004",
+    "filename": "mini/synthetic-4",
+    "pre_text": ["shares outstanding and dividends per share are shown below."],
+    "post_text": [],
+    "table": [["", "2020", "2019"], ["shares outstanding ( millions )", "420", "436"], ["dividend per share", "$ 1.40", "$ 1.20"]],
+    "qa": {"question": "what was the percentage change in total dividends paid from 2019 to 2020?", "program": "multiply(420, 1.40), multiply(436, 1.20), subtract(#0, #1), divide(#2, #1)", "exe_ans": 0.12385, "answer": "12.4%"}
+  },
+  {
+    "id": "mini-005",
+    "filename": "mini/synthetic-5",
+    "pre_text": ["the segment results ( in thousands ) were as follows."],
+    "post_text": [],
+    "table": [["", "2021", "2020"], ["north america", "12450", "11980"], ["europe", "8320", "8910"], ["asia", "4110", "3650"]],
+    "qa": {"question": "what was the average segment result across the three regions in 2021, in thousands?", "program": "add(12450, 8320), add(#0, 4110), divide(#1, const_3)", "exe_ans": 8293.33, "answer": "8293"}
+  },
+  {
+    "id": "mini-006",
+    "filename": "mini/synthetic-6",
+    "pre_text": ["the segment results ( in thousands ) were as follows."],
+    "post_text": [],
+    "table": [["", "2021", "2020"], ["north america", "12450", "11980"], ["europe", "8320", "8910"], ["asia", "4110", "3650"]],
+    "qa": {"question": "what was the ratio of the europe result to the asia result in 2020?", "program": "divide(8910, 3650)", "exe_ans": 2.44110, "answer": "2.44"}
+  },
+  {
+    "id": "mini-007",
+    "filename": "mini/synthetic-7",
+    "pre_text": ["interest expense and average debt are shown below ( in millions )."],
+    "post_text": [],
+    "table": [["", "2022", "2021"], ["interest expense", "$ 310", "$ 275"], ["average debt", "$ 6200", "$ 5500"]],
+    "qa": {"question": "what was the effective interest rate in 2022?", "program": "divide(310, 6200)", "exe_ans": 0.05, "answer": "5%"}
+  },
+  {
+    "id": "mini-008",
+    "filename": "mini/synthetic-8",
+    "pre_text": ["interest expense and average debt are shown below ( in millions )."],
+    "post_text": [],
+    "table": [["", "2022", "2021"], ["interest expense", "$ 310", "$ 275"], ["average debt", "$ 6200", "$ 5500"]],
+    "qa": {"question": "by how many percentage points did the effective interest rate change from 2021 to 2022?", "program": "divide(310, 6200), divide(275, 5500), subtract(#0, #1), multiply(#2, const_100)", "exe_ans": 0.0, "answer": "0"}
+  },
+  {
+    "id": "mini-009",
+    "filename": "mini/synthetic-9",
+    "pre_text": ["headcount at year end is shown below."],
+    "post_text": [],
+    "table": [["", "2023", "2022"], ["employees", "15200", "14100"]],
+    "qa": {"question": "what was the net change in headcount from 2022 to 2023?", "program": "subtract(15200, 14100)", "exe_ans": 1100.0, "answer": "1100"}
+  }
+]

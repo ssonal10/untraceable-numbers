@@ -1,0 +1,226 @@
+finqa: loaded 1147, buckets {'1': 654, '2': 409, '3+': 84}; sampled 150
+tatqa: loaded 718, buckets {'1': 374, '2': 281, '3+': 63}; sampled 150
+2700 episodes to run over 9 conditions (0 already in <run-dir>/grid-haiku.csv)
+model: {'id': 'claude-haiku-5-5', 'display_name': 'Claude Haiku 5.5', 'created_at': '2026-10-07 18:00:00+00:00'}
+wave 1: 2700 requests; spent so far 0.39 USD; projected for this wave 0.56 USD (cap 80.00)
+  batch msgbatch_01S3u5EThvj3MhQ5Jc2bZZFE submitted with 2700 requests; polling every 30s
+  0s: in_progress, processing 2700, succeeded 0, errored 0
+  30s: in_progress, processing 2700, succeeded 0, errored 0
+  60s: in_progress, processing 2700, succeeded 0, errored 0
+  91s: in_progress, processing 2700, succeeded 0, errored 0
+  121s: in_progress, processing 2700, succeeded 0, errored 0
+  152s: in_progress, processing 2700, succeeded 0, errored 0
+  182s: in_progress, processing 2700, succeeded 0, errored 0
+  212s: in_progress, processing 2700, succeeded 0, errored 0
+  243s: in_progress, processing 2700, succeeded 0, errored 0
+  273s: in_progress, processing 2700, succeeded 0, errored 0
+  303s: in_progress, processing 2700, succeeded 0, errored 0
+  wave 1 batch done: 2700 ok, 0 errors, tokens in 4,818,528 out 464,960, cost 0.3572 USD, cumulative 4.63 USD
+  open episodes after wave 1: 2235
+wave 2: 2235 requests; spent so far 4.63 USD; projected for this wave 0.50 USD (cap 80.00)
+  batch msgbatch_01BQrVCh1kvonveZwZVyUH7X submitted with 2235 requests; polling every 30s
+  0s: in_progress, processing 2235, succeeded 0, errored 0
+  30s: in_progress, processing 2235, succeeded 0, errored 0
+  60s: in_progress, processing 2235, succeeded 0, errored 0
+  91s: in_progress, processing 2235, succeeded 0, errored 0
+  121s: in_progress, processing 2235, succeeded 0, errored 0
+  151s: in_progress, processing 2235, succeeded 0, errored 0
+  182s: in_progress, processing 2235, succeeded 0, errored 0
+  212s: in_progress, processing 2235, succeeded 0, errored 0
+  242s: in_progress, processing 2235, succeeded 0, errored 0
+  273s: in_progress, processing 2235, succeeded 0, errored 0
+  303s: in_progress, processing 2235, succeeded 0, errored 0
+  wave 2 batch done: 2235 ok, 0 errors, tokens in 4,462,375 out 152,054, cost 0.2611 USD, cumulative 10.49 USD
+  open episodes after wave 2: 700
+wave 3: 700 requests; spent so far 10.49 USD; projected for this wave 0.17 USD (cap 80.00)
+  batch msgbatch_01BEZHnaBHmJibsKGdtjLuBt submitted with 700 requests; polling every 30s
+  0s: in_progress, processing 700, succeeded 0, errored 0
+  30s: in_progress, processing 700, succeeded 0, errored 0
+  60s: in_progress, processing 700, succeeded 0, errored 0
+  91s: in_progress, processing 700, succeeded 0, errored 0
+  121s: in_progress, processing 700, succeeded 0, errored 0
+  151s: in_progress, processing 700, succeeded 0, errored 0
+  182s: in_progress, processing 700, succeeded 0, errored 0
+  212s: in_progress, processing 700, succeeded 0, errored 0
+  242s: in_progress, processing 700, succeeded 0, errored 0
+  wave 3 batch done: 700 ok, 0 errors, tokens in 1,479,916 out 79,284, cost 0.0938 USD, cumulative 13.94 USD
+  open episodes after wave 3: 91
+wave 4: 91 requests; spent so far 13.94 USD; projected for this wave 0.02 USD (cap 80.00)
+  batch msgbatch_01KfNYfkLEod7Xk5PkXrVaw3 submitted with 91 requests; polling every 30s
+  0s: in_progress, processing 91, succeeded 0, errored 0
+  30s: in_progress, processing 91, succeeded 0, errored 0
+  61s: in_progress, processing 91, succeeded 0, errored 0
+  91s: in_progress, processing 91, succeeded 0, errored 0
+  121s: in_progress, processing 91, succeeded 0, errored 0
+  151s: in_progress, processing 91, succeeded 0, errored 0
+  182s: in_progress, processing 91, succeeded 0, errored 0
+  wave 4 batch done: 91 ok, 0 errors, tokens in 230,876 out 11,825, cost 0.0145 USD, cumulative 17.49 USD
+  open episodes after wave 4: 37
+wave 5: 37 requests; spent so far 17.49 USD; projected for this wave 0.01 USD (cap 80.00)
+  batch msgbatch_01CYhH5WoEc5VgfUEZwYwyPN submitted with 37 requests; polling every 30s
+  0s: in_progress, processing 37, succeeded 0, errored 0
+  30s: in_progress, processing 37, succeeded 0, errored 0
+  60s: in_progress, processing 37, succeeded 0, errored 0
+  91s: in_progress, processing 37, succeeded 0, errored 0
+  wave 5 batch done: 37 ok, 0 errors, tokens in 100,894 out 4,890, cost 0.0063 USD, cumulative 18.84 USD
+  open episodes after wave 5: 6
+wave 6: 6 requests; spent so far 18.84 USD; projected for this wave 0.00 USD (cap 80.00)
+  batch msgbatch_01K2wGK4qQFb5pgnf7ezcaXh submitted with 6 requests; polling every 30s
+  0s: in_progress, processing 6, succeeded 0, errored 0
+  30s: in_progress, processing 6, succeeded 0, errored 0
+  60s: in_progress, processing 6, succeeded 0, errored 0
+  91s: in_progress, processing 6, succeeded 0, errored 0
+  121s: in_progress, processing 6, succeeded 0, errored 0
+  wave 6 batch done: 6 ok, 0 errors, tokens in 18,157 out 1,238, cost 0.0012 USD, cumulative 18.84 USD
+  open episodes after wave 6: 1
+wave 7: 1 requests; spent so far 18.84 USD; projected for this wave 0.00 USD (cap 80.00)
+  batch msgbatch_01PLSbejH6LhRNwfAe2zAq43 submitted with 1 requests; polling every 30s
+  0s: in_progress, processing 1, succeeded 0, errored 0
+  30s: in_progress, processing 1, succeeded 0, errored 0
+  60s: in_progress, processing 1, succeeded 0, errored 0
+  91s: in_progress, processing 1, succeeded 0, errored 0
+  121s: in_progress, processing 1, succeeded 0, errored 0
+  151s: in_progress, processing 1, succeeded 0, errored 0
+  wave 7 batch done: 1 ok, 0 errors, tokens in 3,156 out 74, cost 0.0002 USD, cumulative 22.78 USD
+  open episodes after wave 7: 0
+done: 2700 episodes in <run-dir>/grid-haiku.csv; cumulative spend 22.78 USD (cap 80.00)
+finqa: loaded 1147, buckets {'1': 654, '2': 409, '3+': 84}; sampled 150
+tatqa: loaded 718, buckets {'1': 374, '2': 281, '3+': 63}; sampled 150
+counterfactual: 251 of 300 items perturbed
+753 episodes to run over 3 conditions (0 already in <run-dir>/cf-haiku.csv)
+model: {'id': 'claude-haiku-5-5', 'display_name': 'Claude Haiku 5.5', 'created_at': '2026-10-07 18:00:00+00:00'}
+wave 1: 753 requests; spent so far 22.78 USD; projected for this wave 0.16 USD (cap 80.00)
+  batch msgbatch_016rbHiwGE8p4dCffu4NS7Aw submitted with 753 requests; polling every 30s
+  0s: in_progress, processing 753, succeeded 0, errored 0
+  30s: in_progress, processing 753, succeeded 0, errored 0
+  60s: in_progress, processing 753, succeeded 0, errored 0
+  91s: in_progress, processing 753, succeeded 0, errored 0
+  121s: in_progress, processing 753, succeeded 0, errored 0
+  151s: in_progress, processing 753, succeeded 0, errored 0
+  182s: in_progress, processing 753, succeeded 0, errored 0
+  wave 1 batch done: 753 ok, 0 errors, tokens in 1,376,288 out 131,668, cost 0.1017 USD, cumulative 26.98 USD
+  open episodes after wave 1: 745
+wave 2: 745 requests; spent so far 26.98 USD; projected for this wave 0.17 USD (cap 80.00)
+  batch msgbatch_019GuwnoobDrPGaTk8UnHuLq submitted with 745 requests; polling every 30s
+  0s: in_progress, processing 745, succeeded 0, errored 0
+  30s: in_progress, processing 745, succeeded 0, errored 0
+  60s: in_progress, processing 745, succeeded 0, errored 0
+  91s: in_progress, processing 745, succeeded 0, errored 0
+  121s: in_progress, processing 745, succeeded 0, errored 0
+  151s: in_progress, processing 745, succeeded 0, errored 0
+  182s: in_progress, processing 745, succeeded 0, errored 0
+  212s: in_progress, processing 745, succeeded 0, errored 0
+  242s: in_progress, processing 745, succeeded 0, errored 0
+  wave 2 batch done: 745 ok, 0 errors, tokens in 1,510,355 out 50,842, cost 0.0882 USD, cumulative 29.09 USD
+  open episodes after wave 2: 236
+wave 3: 236 requests; spent so far 29.09 USD; projected for this wave 0.06 USD (cap 80.00)
+  batch msgbatch_01Dgj9cXcz8fVCfKSTBFeAz2 submitted with 236 requests; polling every 30s
+  0s: in_progress, processing 236, succeeded 0, errored 0
+  30s: in_progress, processing 236, succeeded 0, errored 0
+  60s: in_progress, processing 236, succeeded 0, errored 0
+  91s: in_progress, processing 236, succeeded 0, errored 0
+  121s: in_progress, processing 236, succeeded 0, errored 0
+  wave 3 batch done: 236 ok, 0 errors, tokens in 501,217 out 28,378, cost 0.0322 USD, cumulative 29.19 USD
+  open episodes after wave 3: 4
+wave 4: 4 requests; spent so far 29.19 USD; projected for this wave 0.00 USD (cap 80.00)
+  batch msgbatch_01HxipaEh5v5zUfcbyxew1Mh submitted with 4 requests; polling every 30s
+  0s: in_progress, processing 4, succeeded 0, errored 0
+  32s: in_progress, processing 4, succeeded 0, errored 0
+  62s: in_progress, processing 4, succeeded 0, errored 0
+  92s: in_progress, processing 4, succeeded 0, errored 0
+  wave 4 batch done: 4 ok, 0 errors, tokens in 9,493 out 879, cost 0.0007 USD, cumulative 29.20 USD
+  open episodes after wave 4: 0
+done: 753 episodes in <run-dir>/cf-haiku.csv; cumulative spend 29.20 USD (cap 80.00)
+finqa: loaded 1147, buckets {'1': 654, '2': 409, '3+': 84}; sampled 150
+tatqa: loaded 718, buckets {'1': 374, '2': 281, '3+': 63}; sampled 150
+600 episodes to run over 2 conditions (2700 already in <run-dir>/grid-haiku.csv)
+model: {'id': 'claude-haiku-5-5', 'display_name': 'Claude Haiku 5.5', 'created_at': '2026-10-07 18:00:00+00:00'}
+wave 1: 600 requests; spent so far 29.20 USD; projected for this wave 0.12 USD (cap 80.00)
+  batch msgbatch_01FiR8t2obz6j4EE43aiBJCF submitted with 600 requests; polling every 30s
+  0s: in_progress, processing 600, succeeded 0, errored 0
+  30s: in_progress, processing 600, succeeded 0, errored 0
+  60s: in_progress, processing 600, succeeded 0, errored 0
+  91s: in_progress, processing 600, succeeded 0, errored 0
+  121s: in_progress, processing 600, succeeded 0, errored 0
+  151s: in_progress, processing 600, succeeded 0, errored 0
+  182s: in_progress, processing 600, succeeded 0, errored 0
+  212s: in_progress, processing 600, succeeded 0, errored 0
+  wave 1 batch done: 600 ok, 0 errors, tokens in 1,075,084 out 90,860, cost 0.0765 USD, cumulative 33.16 USD
+  open episodes after wave 1: 595
+wave 2: 595 requests; spent so far 33.16 USD; projected for this wave 0.13 USD (cap 80.00)
+  batch msgbatch_0178huZjkJt1mYGvsTgmEGbt submitted with 595 requests; polling every 30s
+  0s: in_progress, processing 595, succeeded 0, errored 0
+  30s: in_progress, processing 595, succeeded 0, errored 0
+  60s: in_progress, processing 595, succeeded 0, errored 0
+  91s: in_progress, processing 595, succeeded 0, errored 0
+  121s: in_progress, processing 595, succeeded 0, errored 0
+  151s: in_progress, processing 595, succeeded 0, errored 0
+  wave 2 batch done: 595 ok, 0 errors, tokens in 1,168,438 out 66,858, cost 0.0751 USD, cumulative 33.24 USD
+  open episodes after wave 2: 159
+wave 3: 159 requests; spent so far 33.24 USD; projected for this wave 0.04 USD (cap 80.00)
+  batch msgbatch_01LGFzs4itNduKbvzte3fDN5 submitted with 159 requests; polling every 30s
+  0s: in_progress, processing 159, succeeded 0, errored 0
+  30s: in_progress, processing 159, succeeded 0, errored 0
+  60s: in_progress, processing 159, succeeded 0, errored 0
+  91s: in_progress, processing 159, succeeded 0, errored 0
+  121s: in_progress, processing 159, succeeded 0, errored 0
+  151s: in_progress, processing 159, succeeded 0, errored 0
+  wave 3 batch done: 159 ok, 0 errors, tokens in 344,632 out 50,418, cost 0.0298 USD, cumulative 37.28 USD
+  open episodes after wave 3: 32
+wave 4: 32 requests; spent so far 37.28 USD; projected for this wave 0.01 USD (cap 80.00)
+  batch msgbatch_012Rs1NicvUgWYWZqLwhHs6G submitted with 32 requests; polling every 30s
+  0s: in_progress, processing 32, succeeded 0, errored 0
+  30s: in_progress, processing 32, succeeded 0, errored 0
+  60s: in_progress, processing 32, succeeded 0, errored 0
+  91s: in_progress, processing 32, succeeded 0, errored 0
+  wave 4 batch done: 32 ok, 0 errors, tokens in 77,310 out 6,996, cost 0.0056 USD, cumulative 37.28 USD
+  open episodes after wave 4: 2
+wave 5: 2 requests; spent so far 37.28 USD; projected for this wave 0.00 USD (cap 80.00)
+  batch msgbatch_01DbESXpJVPusvBXHZR21HTA submitted with 2 requests; polling every 30s
+  0s: in_progress, processing 2, succeeded 0, errored 0
+  30s: in_progress, processing 2, succeeded 0, errored 0
+  60s: in_progress, processing 2, succeeded 0, errored 0
+  91s: in_progress, processing 2, succeeded 0, errored 0
+  wave 5 batch done: 2 ok, 0 errors, tokens in 4,808 out 435, cost 0.0003 USD, cumulative 37.34 USD
+  open episodes after wave 5: 0
+done: 3300 episodes in <run-dir>/grid-haiku.csv; cumulative spend 37.34 USD (cap 80.00)
+finqa: loaded 1147, buckets {'1': 654, '2': 409, '3+': 84}; sampled 102
+tatqa: loaded 718, buckets {'1': 374, '2': 281, '3+': 63}; sampled 102
+408 episodes to run over 1 conditions (3300 already in <run-dir>/grid-haiku.csv)
+model: {'id': 'claude-haiku-5-5', 'display_name': 'Claude Haiku 5.5', 'created_at': '2026-10-07 18:00:00+00:00'}
+wave 1: 408 requests; spent so far 37.34 USD; projected for this wave 0.08 USD (cap 80.00)
+  batch msgbatch_01WpkYLstNAYz4MSCvtE9EjQ submitted with 408 requests; polling every 30s
+  0s: in_progress, processing 408, succeeded 0, errored 0
+  30s: in_progress, processing 408, succeeded 0, errored 0
+  60s: in_progress, processing 408, succeeded 0, errored 0
+  91s: in_progress, processing 408, succeeded 0, errored 0
+  121s: in_progress, processing 408, succeeded 0, errored 0
+  151s: in_progress, processing 408, succeeded 0, errored 0
+  182s: in_progress, processing 408, succeeded 0, errored 0
+  212s: in_progress, processing 408, succeeded 0, errored 0
+  242s: in_progress, processing 408, succeeded 0, errored 0
+  wave 1 batch done: 408 ok, 0 errors, tokens in 720,160 out 61,469, cost 0.0514 USD, cumulative 39.99 USD
+  open episodes after wave 1: 404
+wave 2: 404 requests; spent so far 39.99 USD; projected for this wave 0.09 USD (cap 80.00)
+  batch msgbatch_01K653xcbvqVD9TQNrG5xUHm submitted with 404 requests; polling every 30s
+  0s: in_progress, processing 404, succeeded 0, errored 0
+  30s: in_progress, processing 404, succeeded 0, errored 0
+  60s: in_progress, processing 404, succeeded 0, errored 0
+  91s: in_progress, processing 404, succeeded 0, errored 0
+  121s: in_progress, processing 404, succeeded 0, errored 0
+  151s: in_progress, processing 404, succeeded 0, errored 0
+  182s: in_progress, processing 404, succeeded 0, errored 0
+  wave 2 batch done: 404 ok, 0 errors, tokens in 782,407 out 35,861, cost 0.0481 USD, cumulative 42.87 USD
+  open episodes after wave 2: 8
+wave 3: 8 requests; spent so far 42.87 USD; projected for this wave 0.00 USD (cap 80.00)
+  batch msgbatch_01LCkgyMjG84JmnGmyXoT5cH submitted with 8 requests; polling every 30s
+  0s: in_progress, processing 8, succeeded 0, errored 0
+  30s: in_progress, processing 8, succeeded 0, errored 0
+  60s: in_progress, processing 8, succeeded 0, errored 0
+  91s: in_progress, processing 8, succeeded 0, errored 0
+  121s: in_progress, processing 8, succeeded 0, errored 0
+  151s: in_progress, processing 8, succeeded 0, errored 0
+  wave 3 batch done: 8 ok, 0 errors, tokens in 19,401 out 1,674, cost 0.0014 USD, cumulative 42.87 USD
+  open episodes after wave 3: 0
+done: 3708 episodes in <run-dir>/grid-haiku.csv; cumulative spend 42.87 USD (cap 80.00)
+CHAIN HAIKU COMPLETE

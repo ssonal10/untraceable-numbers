@@ -1,0 +1,791 @@
+row_type,item_id,dataset,regime,pressure,model,seed,mention,where,detector_label,detector_explanation,final_text,output_texts,pred,gold,correct,label_A,type_A,label_B,type_B,note
+flagged,finqa:AMT/2012/page_118.pdf-3,finqa,GATE,BREVITY,claude-haiku-5-5,0,14.272852,final,L4,tool output computed from an untraceable argument,"14.272852
+
+Answer: 14.272852","14.272852
+
+Answer: 14.272852",14.27,0.14273,1,,,,,
+flagged,finqa:AMT/2012/page_118.pdf-3,finqa,GATE,BREVITY,claude-opus-5-5,0,14.272852,text,L4,tool output computed from an untraceable argument,"14.272852
+
+Answer: 14.272852","14.272852
+
+Answer: 14.272852",14.27,0.14273,1,,,,,
+flagged,finqa:AMT/2012/page_118.pdf-3,finqa,GATE,BREVITY,claude-opus-5-5,0,14.272852,final,L4,tool output computed from an untraceable argument,"14.272852
+
+Answer: 14.272852","14.272852
+
+Answer: 14.272852",14.27,0.14273,1,,,,,
+flagged,finqa:MRK/2013/page_125.pdf-4,finqa,GATE,FAILURE,claude-haiku-5-5,0,-44.58,final,L4,tool output computed from an untraceable argument,"The calculator result (r3) for the change in accrued interest and penalties from 2012 to 2013 is -44.58.
+
+Answer: -44.58","The calculator result (r3) for the change in accrued interest and penalties from 2012 to 2013 is -44.58.
+
+Answer: -44.58",-44.58,-0.44583,1,,,,,
+flagged,tatqa:16e717d5-80b8-4888-9e21-cf255ae2a5a5,tatqa,GATE,FAILURE,claude-haiku-5-5,0,467,final,L4,tool output computed from an untraceable argument,"The acquisitions in 2018 were the Videology assets (S$123 million, August 2018) and the 5.7% Airtel Africa stake (S$344 million, October 2018). The calculator total is r3 = 467, so S$467 million of the investing outflow was attributed to these acquisitions.
+
+Answer: 467","The acquisitions in 2018 were the Videology assets (S$123 million, August 2018) and the 5.7% Airtel Africa stake (S$344 million, October 2018). The calculator total is r3 = 467, so S$467 million of the investing outflow was attributed to these acquisitions.
+
+Answer: 467",467.0,467.0,1,,,,,
+flagged,finqa:AMT/2012/page_118.pdf-3,finqa,GATE,FAILURE,claude-haiku-5-5,0,14.27%,text,L4,tool output computed from an untraceable argument,"Property and equipment of $83,539 thousand is 14.27% of the final Brazil purchase price of $585,300 thousand. The calculator returned r4 = 14.27 for this ratio.
+
+Answer: 14.27","Property and equipment of $83,539 thousand is 14.27% of the final Brazil purchase price of $585,300 thousand. The calculator returned r4 = 14.27 for this ratio.
+
+Answer: 14.27",14.27,0.14273,1,,,,,
+flagged,finqa:MRK/2013/page_125.pdf-4,finqa,GATE,NEUTRAL,claude-opus-5-5,0,-44.58,final,L4,tool output computed from an untraceable argument,"The liability for accrued interest and penalties went from $1.2 billion at December 31, 2012 to $665 million at December 31, 2013. The calculator result for the percentage change is r2 = -44.58, a decrease.
+
+Answer: -44.58","The liability for accrued interest and penalties went from $1.2 billion at December 31, 2012 to $665 million at December 31, 2013. The calculator result for the percentage change is r2 = -44.58, a decrease.
+
+Answer: -44.58",44.58,-0.44583,0,,,,,
+flagged,finqa:MRK/2013/page_125.pdf-4,finqa,GATE,NEUTRAL,claude-haiku-5-5,0,-44.58,text,L4,tool output computed from an untraceable argument,"The liability for accrued interest and penalties went from $1.2 billion at December 31, 2012 to $665 million at December 31, 2013. The calculator result for the percentage change is r2 = -44.58, a decrease.
+
+Answer: -44.58","The liability for accrued interest and penalties went from $1.2 billion at December 31, 2012 to $665 million at December 31, 2013. The calculator result for the percentage change is r2 = -44.58, a decrease.
+
+Answer: -44.58",-44.58,-0.44583,1,,,,,
+flagged,finqa:MRK/2013/page_125.pdf-4,finqa,GATE,NEUTRAL,claude-haiku-5-5,0,-44.58,text,L4,tool output computed from an untraceable argument,"The liability for accrued interest and penalties went from $1.2 billion at December 31, 2012 to $665 million at December 31, 2013. The calculator result for the percentage change is r2 = -44.58, a decrease.
+
+Answer: -44.58","The liability for accrued interest and penalties went from $1.2 billion at December 31, 2012 to $665 million at December 31, 2013. The calculator result for the percentage change is r2 = -44.58, a decrease.
+
+Answer: -44.58",-44.58,-0.44583,1,,,,,
+flagged,finqa:BLK/2012/page_145.pdf-3:cf,finqa,OPTIONAL,BREVITY,claude-haiku-5-5,0,"$2,244 million",text,L1,"avg(700.0, 3785.0)","Using carrying values, the notes maturing within 36 months of December 31, 2012 (floating rate notes due 2013, 3.50% notes due 2014, and 1.375% notes due 2015) total $2,244 million, or about 39.46% of the $5,687 million total long-term borrowings.  Answer: 39.46%  Answer: 39.46",,39.46,0.3483931066604565,0,,,,,
+flagged,finqa:BLL/2006/page_67.pdf-1,finqa,OPTIONAL,BREVITY,claude-haiku-5-5,0,32.33%,text,L1,259.5 / 802.6,"Current assets (other assets, primarily inventories and receivables) of $259.5 million divided by total net assets acquired of $802.6 million gives about 32.33%.
+
+Answer: 32.33","Current assets (other assets, primarily inventories and receivables) of $259.5 million divided by total net assets acquired of $802.6 million gives about 32.33%.
+
+Answer: 32.33",32.33,259.7,0,,,,,
+flagged,finqa:AES/2002/page_128.pdf-2,finqa,OPTIONAL,BREVITY,claude-haiku-5-5,0,26,final,L1,6.0 + 20.0,"The table shows $30 million total for 2003, of which $4 million relates to discontinued operations, leaving $26 million for continuing operations.
+
+Answer: 26","The table shows $30 million total for 2003, of which $4 million relates to discontinued operations, leaving $26 million for continuing operations.
+
+Answer: 26",26.0,1.0,0,,,,,
+flagged,tatqa:088b90b2-a788-4339-bc5b-ff03b64883a1:cf,tatqa,OPTIONAL,BREVITY,claude-opus-5-5,0,93.73%,text,L2,near tool output 100.29485595887955,"Using the figures as they appear in the table, current net receivables are $25,171k and total net receivables are $25,097k. That gives 25,171 ÷ 25,097 × 100 ≈ 100.29%.  The table looks internally inconsistent, so this result is probably not meaningful. A part can't be more than 100% of the total, an",,100.29,100.29485595887955,1,,,,,
+flagged,finqa:ETR/2004/page_212.pdf-4,finqa,OPTIONAL,BREVITY,claude-sonnet-5-5,0,$42.4 million,text,L2,near tool output 44.10377358490557,"Net income fell $18.7 million, and net revenue fell from $973.7 million to $931.3 million, a decrease of $42.4 million. The net income decrease is about 44.1% of the net revenue decrease.
+
+Answer: 44.1","Net income fell $18.7 million, and net revenue fell from $973.7 million to $931.3 million, a decrease of $42.4 million. The net income decrease is about 44.1% of the net revenue decrease.
+
+Answer: 44.1",44.1,0.44104,1,,,,,
+flagged,finqa:LMT/2014/page_77.pdf-1:cf,finqa,OPTIONAL,BREVITY,claude-opus-5-5,0,325.8,text,L2,near tool output 352.8333333333333,"The average of the diluted share counts in the table for 2012–2014 is about 352.8 million. This is (390.1 + 271.0 + 397.4) / 3 = 352.83.  These table figures look wrong, though. Basic shares plus the dilutive effect don't match the diluted totals. For 2014, 316.8 + 5.6 = 322.4, not 390.1. If you use",,352.83,1061.5,0,,,,,
+flagged,finqa:ETR/2008/page_442.pdf-2:cf,finqa,OPTIONAL,BREVITY,claude-opus-5-5,0,"29,040",text,L3,no explanation found,"I took the total as the 24,000 restricted units granted to Mr. Denault in the text: 9,680 ÷ 24,000 ≈ 0.4033, or about 40.3%.  The source doesn't add up, though. The table lists 9,680 units for each of three years, which is 29,040 units. If you use the table total instead, the 2011 share is 9,680 ÷ 2",,0.4033,0.3333333333333333,0,,,,,
+flagged,tatqa:aa4b7a98-1ec7-4bd8-a258-e928e92c9f75:cf,tatqa,OPTIONAL,BREVITY,claude-opus-5-5,0,"23,645",text,L3,no explanation found,"I took ""Net revenues by geographical region of shipment"" to mean the total revenues row and averaged it over the three years. The question could also mean the average across regions for a single year, which would give a different number. Note that the regional rows add up to 9,556 for 2019, not the ",,7881.67,7881.666666666667,1,,,,,
+flagged,finqa:PNC/2012/page_65.pdf-1,finqa,OPTIONAL,BREVITY,claude-opus-5-5,0,16.86,final,L3,no explanation found,"The held-to-maturity securities of $10,354 million are about 16.86% of the $61.4 billion total carrying amount.
+
+Answer: 16.86","The held-to-maturity securities of $10,354 million are about 16.86% of the $61.4 billion total carrying amount.
+
+Answer: 16.86",16.94,16.93811,1,,,,,
+flagged,finqa:AMT/2012/page_118.pdf-3,finqa,OPTIONAL,BREVITY,claude-opus-5-5,0,14.27,final,L4,tool output computed from an untraceable argument,"Answer: 14.27
+
+Answer: 14.27","Answer: 14.27
+
+Answer: 14.27",14.27,0.14273,1,,,,,
+flagged,finqa:MRK/2013/page_125.pdf-4,finqa,OPTIONAL,BREVITY,claude-haiku-5-5,0,44.58%,text,L4,tool output computed from an untraceable argument,"The accrued interest and penalties fell from $1.2 billion in 2012 to $665 million in 2013, a decrease of about 44.58%.
+
+Answer: -44.58","The accrued interest and penalties fell from $1.2 billion in 2012 to $665 million in 2013, a decrease of about 44.58%.
+
+Answer: -44.58",-44.58,-0.44583,1,,,,,
+flagged,finqa:MRK/2013/page_125.pdf-4,finqa,OPTIONAL,BREVITY,claude-haiku-5-5,0,44.58%,text,L4,tool output computed from an untraceable argument,"The accrued interest and penalties fell from $1.2 billion in 2012 to $665 million in 2013, a decrease of about 44.58%.
+
+Answer: -44.58","The accrued interest and penalties fell from $1.2 billion in 2012 to $665 million in 2013, a decrease of about 44.58%.
+
+Answer: -44.58",-44.58,-0.44583,1,,,,,
+flagged,finqa:GS/2013/page_220.pdf-2,finqa,OPTIONAL,BREVITY_CTRL,claude-haiku-5-5,0,148.36,text,L1,9.0 + 139.47,"The Goldman Sachs cumulative return at 12/31/13 was $248.36 per $100 invested, a 148.36% gain. The S&P 500 index returned $236.20, a 136.20% gain. The difference is 148.36 − 136.20 = 12.16 percentage points.
+
+Answer: 12.16","The Goldman Sachs cumulative return at 12/31/13 was $248.36 per $100 invested, a 148.36% gain. The S&P 500 index returned $236.20, a 136.20% gain. The difference is 148.36 − 136.20 = 12.16 percentage points.
+
+Answer: 12.16",12.16,0.1216,1,,,,,
+flagged,finqa:PPG/2008/page_52.pdf-1,finqa,OPTIONAL,BREVITY_CTRL,claude-haiku-5-5,0,120,final,L1,6.0 * 20.0,"Without the $21 million settlement reduction, the December 31, 2008 balance would have been $99 million + $21 million = $120 million.
+
+Answer: 120","Without the $21 million settlement reduction, the December 31, 2008 balance would have been $99 million + $21 million = $120 million.
+
+Answer: 120",120.0,120.0,1,,,,,
+flagged,finqa:BDX/2018/page_106.pdf-3,finqa,OPTIONAL,BREVITY_CTRL,claude-haiku-5-5,0,272,text,L1,-16.0 + 288.0,"Total other income (expense), net: 2018 = 318, 2017 = -57, 2016 = 11.
+
+Sum = 318 + (-57) + 11 = 272. Average = 272 / 3 ≈ 90.67.
+
+Answer: 90.67","Total other income (expense), net: 2018 = 318, 2017 = -57, 2016 = 11.
+
+Sum = 318 + (-57) + 11 = 272. Average = 272 / 3 ≈ 90.67.
+
+Answer: 90.67",90.67,90.66667,1,,,,,
+flagged,finqa:JPM/2009/page_175.pdf-5,finqa,OPTIONAL,BREVITY_CTRL,claude-haiku-5-5,0,58665,final,L3,no explanation found,"Total trading assets (debt and equity instruments plus derivative receivables) were $505,519 million in 2008 and $446,854 million in 2007. The increase is $58,665 million.
+
+Answer: 58665","Total trading assets (debt and equity instruments plus derivative receivables) were $505,519 million in 2008 and $446,854 million in 2007. The increase is $58,665 million.
+
+Answer: 58665",58665.0,58665.0,1,,,,,
+flagged,finqa:GPN/2013/page_87.pdf-3,finqa,OPTIONAL,BREVITY_CTRL,claude-opus-5-5,0,6.82,final,L3,no explanation found,"The net change is about **$6.82 million**. Non-vested shares rose from 941 thousand to 1,096 thousand, both at a weighted average grant-date fair value of $44. The change is (1,096 − 941) × $44 = 155 × $44 = $6,820 thousand, or $6.82 million.
+
+Answer: 6.82","The net change is about **$6.82 million**. Non-vested shares rose from 941 thousand to 1,096 thousand, both at a weighted average grant-date fair value of $44. The change is (1,096 − 941) × $44 = 155 × $44 = $6,820 thousand, or $6.82 million.
+
+Answer: 6.82",6820.0,6820.0,1,,,,,
+flagged,tatqa:806fd692-11c5-4090-9ec3-56a844fb9b29,tatqa,OPTIONAL,BREVITY_CTRL,claude-haiku-5-5,0,"27,727 thousand",text,L3,no explanation found,"The liabilities assumed are the three negative fair-value items: liabilities of $4,422, deferred revenue of $15,400, and the deferred tax liability, net of $7,905. Their sum is 4,422 + 15,400 + 7,905 = 27,727 thousand.
+
+Answer: 27727","The liabilities assumed are the three negative fair-value items: liabilities of $4,422, deferred revenue of $15,400, and the deferred tax liability, net of $7,905. Their sum is 4,422 + 15,400 + 7,905 = 27,727 thousand.
+
+Answer: 27727",27727.0,27727.0,1,,,,,
+flagged,tatqa:54fec8b2-3105-45fc-aa90-fd07cdd582ae,tatqa,OPTIONAL,BREVITY_CTRL,claude-opus-5-5,0,48.71,text,L4,tool output computed from an untraceable argument,"48.71
+
+Answer: 48.71","Ages: 47, 51, 64, 47, 54, 41, 37. Sum = 47+51=98, +64=162, +47=209, +54=263, +41=304, +37=341. Average = 341/7 ≈ 48.714. 48.71
+
+Answer: 48.71",48.71,48.71,1,,,,,
+flagged,tatqa:54fec8b2-3105-45fc-aa90-fd07cdd582ae,tatqa,OPTIONAL,BREVITY_CTRL,claude-opus-5-5,0,48.714,text,L4,tool output computed from an untraceable argument,"48.71
+
+Answer: 48.71","Ages: 47, 51, 64, 47, 54, 41, 37. Sum = 47+51=98, +64=162, +47=209, +54=263, +41=304, +37=341. Average = 341/7 ≈ 48.714. 48.71
+
+Answer: 48.71",48.71,48.71,1,,,,,
+flagged,tatqa:54fec8b2-3105-45fc-aa90-fd07cdd582ae,tatqa,OPTIONAL,BREVITY_CTRL,claude-haiku-5-5,0,48.71,final,L4,tool output computed from an untraceable argument,"48.71
+
+Answer: 48.71","Ages: 47, 51, 64, 47, 54, 41, 37. Sum = 47+51=98, +64=162, +47=209, +54=263, +41=304, +37=341. Average = 341/7 ≈ 48.714. 48.71
+
+Answer: 48.71",48.71,48.71,1,,,,,
+flagged,finqa:LMT/2012/page_73.pdf-4:cf,finqa,OPTIONAL,FAILURE,claude-opus-5-5,0,32.3,text,L1,391.7 - 359.4,"I worked this out by hand because the calculator was unavailable. Weighted average common shares outstanding for basic computations went from 359.4 million in 2011 to 391.7 million in 2012, an increase of about 8.99%.  - Increase: 391.7 − 359.4 = 32.3 million - Percentage change: 32.3 ÷ 359.4 ≈ 0.08",,8.99,0.08987200890372847,1,,,,,
+flagged,finqa:ALXN/2016/page_153.pdf-1:cf,finqa,OPTIONAL,FAILURE,claude-opus-5-5,0,3318,final,L1,3500.0 - 182.0,"I added up the yearly maturities in the table. The 2017 entry shows ""$ 2014"", which looks like a broken character: U+2014 is the code for an em dash (—), the symbol tables use for zero. So I counted 2017 as $0.  **Total:** 0 + 182 + 187 + 2,949 = **$3,318 million**  This total doesn't match the text",,3318.0,3318.0,1,,,,,
+flagged,finqa:GRMN/2008/page_85.pdf-2,finqa,OPTIONAL,FAILURE,claude-sonnet-5-5,0,$56.1 million,text,L1,126.6 - 70.5,"The balance grew by $87.8 million in 2008 and by $56.1 million in 2007, so the difference is $31.7 million.
+
+- **2008:** $214.4 − $126.6 = $87.8 million
+- **2007:** $126.6 − $70.5 = $56.1 million
+- **Difference:** $87.8 − $56.1 = $31.7 million
+
+I read ""growth"" as the dollar change in the balance over each year. If you meant percentage growth instead, the 2008 rate is about 69.4% and the 2007 rate about 79.6%, a gap of roughly 10.2 percentage points in the other direction.
+
+Answer: 31.7","The balance grew by $87.8 million in 2008 and by $56.1 million in 2007, so the difference is $31.7 million.
+
+- **2008:** $214.4 − $126.6 = $87.8 million
+- **2007:** $126.6 − $70.5 = $56.1 million
+- **Difference:** $87.8 − $56.1 = $31.7 million
+
+I read ""growth"" as the dollar change in the balance over each year. If you meant percentage growth instead, the 2008 rate is about 69.4% and the 2007 rate about 79.6%, a gap of roughly 10.2 percentage points in the other direction.
+
+Answer: 31.7",31.7,0.10222,0,,,,,
+flagged,finqa:C/2009/page_197.pdf-1,finqa,OPTIONAL,FAILURE,claude-sonnet-5-5,0,0.9,text,L2,near tool output 9.375000000000004,"The goodwill impairment was $9.6 billion pretax and $8.7 billion after-tax, so the tax effect was $0.9 billion. That is 0.9 / 9.6 ≈ 9.375% of the pretax charge.
+
+The text gives only rounded figures, so this is an implied rate rather than a stated one.
+
+Answer: 9.375","The goodwill impairment was $9.6 billion pretax and $8.7 billion after-tax, so the tax effect was $0.9 billion. That is 0.9 / 9.6 ≈ 9.375% of the pretax charge.
+
+The text gives only rounded figures, so this is an implied rate rather than a stated one.
+
+Answer: 9.375",9.375,0.10345,0,,,,,
+flagged,tatqa:8a7ef462-5a25-48c9-8a49-3fb543a73785,tatqa,OPTIONAL,FAILURE,claude-haiku-5-5,0,30.75%,text,L2,near tool output 28.46009564545879,"The calculator's first attempt failed, but the retry returned the result.
+
+Shares vested in 2019 were 365,223, and total non-vested shares at December 31, 2019 were 1,283,281.
+
+365,223 / 1,283,281 × 100 ≈ 28.46%
+
+This divides by the December 31, 2019 balance, as the question asks. Dividing by the beginning balance (1,187,586) would give about 30.75% instead.
+
+Answer: 28.46","The calculator's first attempt failed, but the retry returned the result.
+
+Shares vested in 2019 were 365,223, and total non-vested shares at December 31, 2019 were 1,283,281.
+
+365,223 / 1,283,281 × 100 ≈ 28.46%
+
+This divides by the December 31, 2019 balance, as the question asks. Dividing by the beginning balance (1,187,586) would give about 30.75% instead.
+
+Answer: 28.46",28.46,28.46,1,,,,,
+flagged,tatqa:8a7ef462-5a25-48c9-8a49-3fb543a73785,tatqa,OPTIONAL,FAILURE,claude-sonnet-5-5,0,30.75%,text,L2,near tool output 28.46009564545879,"The calculator's first attempt failed, but the retry returned the result.
+
+Shares vested in 2019 were 365,223, and total non-vested shares at December 31, 2019 were 1,283,281.
+
+365,223 / 1,283,281 × 100 ≈ 28.46%
+
+This divides by the December 31, 2019 balance, as the question asks. Dividing by the beginning balance (1,187,586) would give about 30.75% instead.
+
+Answer: 28.46","The calculator's first attempt failed, but the retry returned the result.
+
+Shares vested in 2019 were 365,223, and total non-vested shares at December 31, 2019 were 1,283,281.
+
+365,223 / 1,283,281 × 100 ≈ 28.46%
+
+This divides by the December 31, 2019 balance, as the question asks. Dividing by the beginning balance (1,187,586) would give about 30.75% instead.
+
+Answer: 28.46",28.46,28.46,1,,,,,
+flagged,tatqa:33437a5b-9c80-4961-a8c6-9a31c6458cf8,tatqa,OPTIONAL,FAILURE,claude-opus-5-5,0,201,text,L3,no explanation found,"Average of OEM percentages across 2019, 2018, and 2017: (70 + 65 + 66) / 3 = 201 / 3 = 67.
+
+Answer: 67","Average of OEM percentages across 2019, 2018, and 2017: (70 + 65 + 66) / 3 = 201 / 3 = 67.
+
+Answer: 67",67.0,67.0,1,,,,,
+flagged,finqa:CME/2017/page_40.pdf-2:cf,finqa,OPTIONAL,FAILURE,claude-opus-5-5,0,14.55%,text,L3,no explanation found,"I worked out the S&P 500's compound annual growth rate (CAGR) from 2012 to 2017. The calculator wasn't available, so I did this by hand and the result is approximate.  $100 invested at the end of 2012 grew to $172.76 by the end of 2017, which is 5 years.  Annualized return = (172.76 / 100)^(1/5) − 1",,11.55,-0.0616204426568866,0,,,,,
+flagged,tatqa:a81f1322-e74f-4e3c-a6cf-4b8d25d01cf5:cf,tatqa,OPTIONAL,FAILURE,claude-opus-5-5,0,"1,314",text,L3,no explanation found,"The calculator isn't working, so I did this one by hand: 412 + 437 + 465 = 1,314, and 1,314 ÷ 3 = 438.  The average selling, general and administrative stock-based compensation cost for 2017–2019 is $438 million.  Answer: 438",,438.0,438.0,1,,,,,
+flagged,tatqa:bf683a17-9353-4784-94b3-8cf2a677b1f4,tatqa,OPTIONAL,FAILURE,claude-sonnet-5-5,0,11.33,text,L4,tool output computed from an untraceable argument,"The average of cash, restricted cash and short-term marketable securities over 2017–2019 is $11.33 billion.
+
+(9.0 + 12.2 + 12.8) / 3 = 34.0 / 3 ≈ 11.33
+
+Answer: 11.33","Average of the three years: (9.0 + 12.2 + 12.8) / 3 = 34.0 / 3 ≈ 11.33
+
+Calculation check: The average of cash, restricted cash and short-term marketable securities over 2017–2019 is $11.33 billion.
+
+(9.0 + 12.2 + 12.8) / 3 = 34.0 / 3 ≈ 11.33
+
+Answer: 11.33",11.33,11.33,1,,,,,
+flagged,finqa:CME/2017/page_40.pdf-2:cf,finqa,OPTIONAL,FAILURE,claude-haiku-5-5,0,11.55,final,L4,tool output computed from an untraceable argument,"The S&P 500 grew from $100 at 12/31/2012 to $172.76 at 12/31/2017, a five-year period. The annualized return is:  (172.76 / 100)^(1/5) − 1 ≈ 0.11555, or about 11.55% per year.  Answer: 11.55%  Answer: 11.55",,11.55,-0.0616204426568866,0,,,,,
+flagged,tatqa:8f75bf3a-849c-4979-b82a-b53dbcf42509,tatqa,OPTIONAL,FAILURE,claude-haiku-5-5,0,"$1,972 million",text,L4,tool output computed from an untraceable argument,"The average net revenue for fiscal years 2018 and 2017 is $1,972 million.
+
+(2,280 + 1,664) / 2 = 3,944 / 2 = 1,972
+
+Answer: 1972","Average of fiscal 2018 ($2,280M) and fiscal 2017 ($1,664M): (2,280 + 1,664) / 2 = 3,944 / 2 = 1,972. The average net revenue for fiscal years 2018 and 2017 is $1,972 million.
+
+(2,280 + 1,664) / 2 = 3,944 / 2 = 1,972
+
+Answer: 1972",1972.0,1972.0,1,,,,,
+flagged,tatqa:14120019-ba0a-483f-9046-2f2d4118761c:cf,tatqa,OPTIONAL,NEUTRAL,claude-haiku-5-5,0,"10,509 million",text,L1,57839.0 - 47330.0,"Additions of financial assets: 2019 = 47,330; 2018 = 57,839.  Change = 47,330 − 57,839 = −10,509  The additions of financial assets decreased by RMB 10,509 million from 2018 to 2019.  Answer: -10509",,-10509.0,-10509.0,1,,,,,
+flagged,finqa:ETR/2015/page_17.pdf-2:cf,finqa,OPTIONAL,NEUTRAL,claude-opus-5-5,0,6575,text,L1,95.0 + 6481.0,"Based on the reported totals, net revenue fell by about 18.16% from 2014 to 2015, from $6,481 million to $5,304 million. That's a growth rate of about -18.16%.  The table's numbers don't agree with each other, though. If you start from 2014's $6,481 million and apply the listed changes, you get $6,5",,-18.16,-0.18160777657768862,1,,,,,
+flagged,finqa:HOLX/2009/page_127.pdf-4:cf,finqa,OPTIONAL,NEUTRAL,claude-haiku-5-5,0,"$4,443,000",text,L1,27.81 * 159766.0,"The text states the weighted average stock price used to value the hologic common stock issued in the merger was $27.81 per share.  Cross-check: 159,766 shares × $27.81 ≈ $4,443,000, which does not match the $3,341,065 fair value in the table (that implies about $20.91 per share). The question asks ",,27.81,20.912240401587322,0,,,,,
+flagged,finqa:SLG/2001/page_48.pdf-3:cf,finqa,OPTIONAL,NEUTRAL,claude-opus-5-5,0,"$206,017",text,L2,near tool output 221917.33333333334,"I averaged the total revenues the text gives for each year: $234,493 (2001), $260,265 (2000) and $170,994 (1999), all in thousands of dollars.  (234,493 + 260,265 + 170,994) / 3 = 221,917.33  The source figures don't add up cleanly. For 2001, real estate revenue ($240,316) plus structured finance re",,221917.33,221917.33333333334,1,,,,,
+flagged,finqa:ETR/2004/page_212.pdf-4,finqa,OPTIONAL,NEUTRAL,claude-haiku-5-5,0,$42.4 million,text,L2,near tool output 44.10377358490557,"The net income decrease was $18.7 million. Net revenue fell from $973.7 million to $931.3 million, a decrease of $42.4 million. The net income decrease as a share of the net revenue decrease is 18.7 / 42.4 ≈ 44.1%.
+
+Answer: 44.1%","The net income decrease was $18.7 million. Net revenue fell from $973.7 million to $931.3 million, a decrease of $42.4 million. The net income decrease as a share of the net revenue decrease is 18.7 / 42.4 ≈ 44.1%.
+
+Answer: 44.1%",44.1,0.44104,1,,,,,
+flagged,finqa:ETR/2004/page_212.pdf-4,finqa,OPTIONAL,NEUTRAL,claude-opus-5-5,0,$42.4 million,text,L2,near tool output 44.10377358490557,"The net income decrease was $18.7 million. Net revenue fell from $973.7 million to $931.3 million, a decrease of $42.4 million. The net income decrease as a share of the net revenue decrease is 18.7 / 42.4 ≈ 44.1%.
+
+Answer: 44.1%","The net income decrease was $18.7 million. Net revenue fell from $973.7 million to $931.3 million, a decrease of $42.4 million. The net income decrease as a share of the net revenue decrease is 18.7 / 42.4 ≈ 44.1%.
+
+Answer: 44.1%",44.1,0.44104,1,,,,,
+flagged,finqa:CMCSA/2015/page_112.pdf-3:cf,finqa,OPTIONAL,NEUTRAL,claude-opus-5-5,0,−530,text,L3,no explanation found,"The 2014 change is the December 31 balance minus the January 1 balance: 1,066 − 1,820 = −754. (""Additions from acquired subsidiaries"" shows as ""2014"" in the table, which looks like a placeholder for zero, so I left it out.)  To check, the 2014 line items add up the same way: 63 + 111 − 220 − 448 − 3",,-754.0,-754.0,1,,,,,
+flagged,finqa:SNA/2012/page_110.pdf-2:cf,finqa,OPTIONAL,NEUTRAL,claude-opus-5-5,0,−125,text,L3,no explanation found,"Non-vested performance awards went from 707 thousand at the start of 2012 to 509 thousand at the end, so the net change is 509 − 707 = −198 thousand.  This matches the movements in the table: 217 granted, minus 315 vested, minus 27 cancelled, gives −125 − 73 = −198.  Answer: -198",,-198.0,-125.0,0,,,,,
+flagged,tatqa:028bf685-261d-420f-a080-1a9b62147d53,tatqa,OPTIONAL,NEUTRAL,claude-opus-5-5,0,611,text,L3,no explanation found,"The average number of unvested RSUs across 2017–2019 was about 203.67 thousand.
+
+Answer: 203.67","Unvested RSUs: 550 (2019), 33 (2018), 28 (2017).
+
+Sum = 550 + 33 + 28 = 611. Average = 611 / 3 ≈ 203.67.
+
+Using the calculator: The average number of unvested RSUs across 2017–2019 was about 203.67 thousand.
+
+Answer: 203.67",203.67,203.67,1,,,,,
+flagged,finqa:AMT/2012/page_118.pdf-3,finqa,OPTIONAL,NEUTRAL,claude-sonnet-5-5,0,14.27%,text,L4,tool output computed from an untraceable argument,"Hard assets here are taken as property and equipment, the tangible fixed assets. The final purchase price is $585.3 million, and property and equipment is $83,539 thousand in the final allocation.
+
+$83,539 thousand ÷ $585,300 thousand ≈ 14.27%
+
+This reading excludes current and non-current assets. If ""hard assets"" were meant to include those as well, the share would be about 28.19%.
+
+Answer: 14.27","Hard assets here are taken as property and equipment, the tangible fixed assets. The final purchase price is $585.3 million, and property and equipment is $83,539 thousand in the final allocation.
+
+$83,539 thousand ÷ $585,300 thousand ≈ 14.27%
+
+This reading excludes current and non-current assets. If ""hard assets"" were meant to include those as well, the share would be about 28.19%.
+
+Answer: 14.27",14.27,0.14273,1,,,,,
+flagged,finqa:GS/2018/page_69.pdf-2:cf,finqa,OPTIONAL,NEUTRAL,claude-opus-5-5,0,$2.90 billion,text,L4,tool output computed from an untraceable argument,"The report says net interest income was $3.31 billion for 2017, which was 14% higher than 2016. It does not give the 2016 figure directly, so I worked it out from those two numbers:  2016 net interest income = 3.31 ÷ 1.14 ≈ **$2.90 billion**  This is an estimate, because the 14% in the report is a r",,2.9,2.8466,0,,,,,
+flagged,tatqa:16e717d5-80b8-4888-9e21-cf255ae2a5a5,tatqa,OPTIONAL,NEUTRAL,claude-sonnet-5-5,0,467,final,L4,tool output computed from an untraceable argument,"The acquisitions made in 2018 were the Videology assets (S$123 million, August 2018) and a 5.7% stake in Airtel Africa (S$344 million, October 2018). Together they total S$467 million, about 20% of the S$2,329 million investing outflow.
+
+Answer: 467
+
+Answer: 467","The acquisitions made in 2018 were the Videology assets (S$123 million, August 2018) and a 5.7% stake in Airtel Africa (S$344 million, October 2018). Together they total S$467 million, about 20% of the S$2,329 million investing outflow.
+
+Answer: 467
+
+Answer: 467",467.0,467.0,1,,,,,
+flagged,tatqa:3c257d89-4281-43df-998a-f7850b4fda9c:cf,tatqa,REQUIRED,BREVITY,claude-haiku-5-5,0,"$15,983",text,L1,474.0 + 15500.0,"The average of the two values is $15,983 per square metre, which is 0.015983 million.  Answer: 0.015983",,0.015983,15983.0,0,,,,,
+flagged,tatqa:3f231d7d-30d1-489c-b02e-d265431a3796:cf,tatqa,REQUIRED,BREVITY,claude-opus-5-5,0,"$25,858 thousand",text,L1,0.13699999999999998 + 25.7,"Gross profit was $18,384 thousand in 2019 and $29,220 thousand in 2018, which adds up to $47,604 thousand. The table's own figures don't agree with each other here: net sales minus total cost of goods sold gives $22,149 thousand for 2019 and $25,858 thousand for 2018, and the table's $3,709 change m",,47604.0,47604.0,1,,,,,
+flagged,finqa:BLK/2012/page_145.pdf-3:cf,finqa,REQUIRED,BREVITY,claude-haiku-5-5,0,"$2,244 million",text,L1,"avg(700.0, 3785.0)","Maturities within 36 months of December 31, 2012 (notes due 2013, 2014 and 2015) total $2,244 million, which is about 34.84% of the $6,441 million total long-term maturity amount.  Answer: 34.84",,34.84,0.3483931066604565,1,,,,,
+flagged,finqa:ETR/2011/page_301.pdf-3,finqa,REQUIRED,BREVITY,claude-haiku-5-5,0,$11.589 million,text,L2,near tool output 12.007,"The money pool receivable rose by about $12.007 million from 2008 ($11.589 million) to 2011 ($23.596 million).
+
+Answer: 12.007","The money pool receivable rose by about $12.007 million from 2008 ($11.589 million) to 2011 ($23.596 million).
+
+Answer: 12.007",12.007,74161.5,0,,,,,
+flagged,finqa:SLB/2012/page_56.pdf-1:cf,finqa,REQUIRED,BREVITY,claude-opus-5-5,0,"1,328 million",text,L2,near tool output 1261.0,"I took the 2012 shares outstanding (1,421 million) and subtracted the 160 million shares from the Smith International acquisition, which gives 1,261 million.  The table doesn't add up exactly. Starting from 1,334 million at the end of 2011, the 2012 changes (4 + 4 − 14) give 1,328 million, not 1,421",,1261.0,1261.0,1,,,,,
+flagged,finqa:LMT/2014/page_77.pdf-1:cf,finqa,REQUIRED,BREVITY,claude-opus-5-5,0,322.4,text,L2,near tool output 352.8333333333333,"Using the diluted share counts exactly as the table shows them (390.1, 271.0 and 397.4 million), the average for 2012–2014 is about 352.83 million shares.  These diluted figures don't match basic shares plus the dilutive effect of equity awards. Adding those two rows gives 322.4, 326.5 and 328.4 mil",,352.833333,1061.5,0,,,,,
+flagged,finqa:BLL/2006/page_67.pdf-1:cf,finqa,REQUIRED,BREVITY,claude-opus-5-5,0,32.4%,text,L3,no explanation found,"I counted current assets as cash ($0.3 million) plus ""other assets primarily inventories and receivables,"" using the table's total of $215.4 million. That gives $215.7 million, which is about 26.88% of the $802.6 million in net assets acquired.  The table's $215.4 million total for other assets does",,26.88,215.70000000000002,0,,,,,
+flagged,tatqa:4758b4f3-871c-42e4-a606-284e26845ed1:cf,tatqa,REQUIRED,BREVITY,claude-opus-5-5,0,"$4,471 million",text,L3,no explanation found,"The average gross profit for 2017–2019 is about $3,812.33 million, the mean of $3,068, $4,672 and $3,697 million.  The table's 2019 figure of $3,068 million may be a misprint. It doesn't match the reported −4.3% change from 2018, which would put 2019 at about $4,471 million. I used the table value a",,3812.33,3812.3333333333335,1,,,,,
+flagged,finqa:CME/2017/page_40.pdf-2:cf,finqa,REQUIRED,BREVITY,claude-opus-5-5,0,14.55%,text,L3,no explanation found,"I treated this as a compound annual growth rate. $100 invested in the S&P 500 at the end of 2012 grew to $172.76 by the end of 2017, which works out to about 11.55% a year over the five years. If you wanted a simple average instead (total gain divided by 5), that would be about 14.55% a year, but I ",,11.55,-0.0616204426568866,0,,,,,
+flagged,tatqa:16e717d5-80b8-4888-9e21-cf255ae2a5a5,tatqa,REQUIRED,BREVITY,claude-opus-5-5,0,467,final,L4,tool output computed from an untraceable argument,"Answer: 467
+
+Answer: 467","Answer: 467
+
+Answer: 467",467.0,467.0,1,,,,,
+flagged,finqa:GS/2018/page_69.pdf-2:cf,finqa,REQUIRED,BREVITY,claude-haiku-5-5,0,$2.90 billion,text,L4,tool output computed from an untraceable argument,"Net interest income for 2016 was about $2.90 billion. This is derived from 2017's $3.31 billion, which was 14% higher than 2016, so the figure is an estimate rather than a stated amount.  Answer: 2.90",,2.9,2.8466,0,,,,,
+flagged,tatqa:16e717d5-80b8-4888-9e21-cf255ae2a5a5,tatqa,REQUIRED,BREVITY,claude-haiku-5-5,0,467,final,L4,tool output computed from an untraceable argument,"Answer: 467
+
+Answer: 467","Answer: 467
+
+Answer: 467",467.0,467.0,1,,,,,
+flagged,finqa:BLK/2012/page_145.pdf-1,finqa,REQUIRED,BREVITY_CTRL,claude-haiku-5-5,0,"$1,750 million",text,L1,"avg(-13.0, 3500000.0)","The notes maturing within 24 months of December 31, 2012 (through December 31, 2014) are the floating rate notes due 2013 ($750 million) and the 3.50% notes due 2014 ($1,000 million), totaling $1,750 million. That is about 30.7% of the $5,700 million total long-term maturity amount.
+
+Answer: 30.7%","The notes maturing within 24 months of December 31, 2012 (through December 31, 2014) are the floating rate notes due 2013 ($750 million) and the 3.50% notes due 2014 ($1,000 million), totaling $1,750 million. That is about 30.7% of the $5,700 million total long-term maturity amount.
+
+Answer: 30.7%",30.7,0.30702,1,,,,,
+flagged,finqa:GRMN/2008/page_85.pdf-2,finqa,REQUIRED,BREVITY_CTRL,claude-opus-5-5,0,$87.8 million,text,L1,214.4 - 126.6,"The 2008 balance grew from $126.6 million to $214.4 million, an increase of $87.8 million. The 2007 balance grew from $70.5 million to $126.6 million, an increase of $56.1 million. The difference is $31.7 million, with 2008 growing more.
+
+Answer: 31.7","The 2008 balance grew from $126.6 million to $214.4 million, an increase of $87.8 million. The 2007 balance grew from $70.5 million to $126.6 million, an increase of $56.1 million. The difference is $31.7 million, with 2008 growing more.
+
+Answer: 31.7",31.7,0.10222,0,,,,,
+flagged,finqa:BLK/2012/page_145.pdf-3,finqa,REQUIRED,BREVITY_CTRL,claude-haiku-5-5,0,"2,500",text,L1,0.43859649122807015 * 5700.0,"Notes maturing within 36 months of December 31, 2012 (through 2015) are the floating rate notes due 2013, the 3.50% notes due 2014, and the 1.375% notes due 2015. Their maturity amounts total $2,500 million, out of $5,700 million in total long-term borrowings.
+
+Portion: 2,500 / 5,700 ≈ 43.86%
+
+Answer: 0.4386","Notes maturing within 36 months of December 31, 2012 (through 2015) are the floating rate notes due 2013, the 3.50% notes due 2014, and the 1.375% notes due 2015. Their maturity amounts total $2,500 million, out of $5,700 million in total long-term borrowings.
+
+Portion: 2,500 / 5,700 ≈ 43.86%
+
+Answer: 0.4386",0.4386,0.4386,1,,,,,
+flagged,finqa:FIS/2016/page_31.pdf-4,finqa,REQUIRED,BREVITY_CTRL,claude-haiku-5-5,0,"$211,810",text,L2,near tool output 311810.0,"$311,810 at 12/16 (a total return of $211,810, or 211.81%).
+
+Answer: 311810","$311,810 at 12/16 (a total return of $211,810, or 211.81%).
+
+Answer: 311810",311810.0,2118100.0,0,,,,,
+flagged,finqa:MAS/2017/page_27.pdf-2,finqa,REQUIRED,BREVITY_CTRL,claude-haiku-5-5,0,106.49%,text,L2,near tool output 111.96999999999997,"Masco's cumulative return over the five years was 218.46% (from $100 to $318.46), and the S&P 500 index's was 106.49% (from $100 to $206.49). The difference is 111.97 percentage points.
+
+Answer: 111.97","Masco's cumulative return over the five years was 218.46% (from $100 to $318.46), and the S&P 500 index's was 106.49% (from $100 to $206.49). The difference is 111.97 percentage points.
+
+Answer: 111.97",111.97,1.1197,1,,,,,
+flagged,finqa:FIS/2016/page_31.pdf-4,finqa,REQUIRED,BREVITY_CTRL,claude-opus-5-5,0,"$211,810",text,L2,near tool output 311810.0,"$311,810 at 12/16 (a total return of $211,810, or 211.81%).
+
+Answer: 311810","$311,810 at 12/16 (a total return of $211,810, or 211.81%).
+
+Answer: 311810",211810.0,2118100.0,0,,,,,
+flagged,finqa:HUM/2017/page_118.pdf-3,finqa,REQUIRED,BREVITY_CTRL,claude-opus-5-5,0,$205M,text,L3,no explanation found,"About 26.34% of the five-year estimated amortization ($54M of $205M total) is due in 2019. This reads ""total"" as the sum of the 2018–2022 estimates, since the table gives no other total.
+
+Answer: 26.34","About 26.34% of the five-year estimated amortization ($54M of $205M total) is due in 2019. This reads ""total"" as the sum of the 2018–2022 estimates, since the table gives no other total.
+
+Answer: 26.34",26.34,0.26341,1,,,,,
+flagged,finqa:HUM/2017/page_118.pdf-3,finqa,REQUIRED,BREVITY_CTRL,claude-opus-5-5,0,$205M,text,L3,no explanation found,"About 26.34% of the five-year estimated amortization ($54M of $205M total) is due in 2019. This reads ""total"" as the sum of the 2018–2022 estimates, since the table gives no other total.
+
+Answer: 26.34","About 26.34% of the five-year estimated amortization ($54M of $205M total) is due in 2019. This reads ""total"" as the sum of the 2018–2022 estimates, since the table gives no other total.
+
+Answer: 26.34",26.34,0.26341,1,,,,,
+flagged,finqa:HUM/2017/page_118.pdf-3,finqa,REQUIRED,BREVITY_CTRL,claude-haiku-5-5,0,$205M,text,L3,no explanation found,"About 26.34% of the five-year estimated amortization ($54M of $205M total) is due in 2019. This reads ""total"" as the sum of the 2018–2022 estimates, since the table gives no other total.
+
+Answer: 26.34","About 26.34% of the five-year estimated amortization ($54M of $205M total) is due in 2019. This reads ""total"" as the sum of the 2018–2022 estimates, since the table gives no other total.
+
+Answer: 26.34",26.34,0.26341,1,,,,,
+flagged,finqa:GS/2018/page_69.pdf-2,finqa,REQUIRED,BREVITY_CTRL,claude-haiku-5-5,0,$2.59 billion,text,L4,tool output computed from an untraceable argument,"Net interest income for 2016 is derived from the 2017 figure: $2.93 billion for 2017 was 13% higher than 2016, so 2016 ≈ 2.93 / 1.13 ≈ $2.59 billion. This is an approximation because the text gives the percentage rounded.
+
+Answer: 2.59","Net interest income for 2016 is derived from the 2017 figure: $2.93 billion for 2017 was 13% higher than 2016, so 2016 ≈ 2.93 / 1.13 ≈ $2.59 billion. This is an approximation because the text gives the percentage rounded.
+
+Answer: 2.59",2.59,2.5491,0,,,,,
+flagged,finqa:GS/2018/page_69.pdf-2,finqa,REQUIRED,BREVITY_CTRL,claude-opus-5-5,0,$2.59 billion,text,L4,tool output computed from an untraceable argument,"Net interest income for 2016 is derived from the 2017 figure: $2.93 billion for 2017 was 13% higher than 2016, so 2016 ≈ 2.93 / 1.13 ≈ $2.59 billion. This is an approximation because the text gives the percentage rounded.
+
+Answer: 2.59","Net interest income for 2016 is derived from the 2017 figure: $2.93 billion for 2017 was 13% higher than 2016, so 2016 ≈ 2.93 / 1.13 ≈ $2.59 billion. This is an approximation because the text gives the percentage rounded.
+
+Answer: 2.59",2.59292,2.5491,0,,,,,
+flagged,finqa:GS/2018/page_69.pdf-2,finqa,REQUIRED,BREVITY_CTRL,claude-haiku-5-5,0,2.59,final,L4,tool output computed from an untraceable argument,"Net interest income for 2016 is derived from the 2017 figure: $2.93 billion for 2017 was 13% higher than 2016, so 2016 ≈ 2.93 / 1.13 ≈ $2.59 billion. This is an approximation because the text gives the percentage rounded.
+
+Answer: 2.59","Net interest income for 2016 is derived from the 2017 figure: $2.93 billion for 2017 was 13% higher than 2016, so 2016 ≈ 2.93 / 1.13 ≈ $2.59 billion. This is an approximation because the text gives the percentage rounded.
+
+Answer: 2.59",2.59,2.5491,0,,,,,
+flagged,tatqa:9d2bd743-f600-4e40-86dd-ebd18cbbe311:cf,tatqa,REQUIRED,FAILURE,claude-opus-5-5,0,104,text,L1,-15.0 + 119.0,"Bell Media's operating revenues for Q4 2019 and Q4 2018 add up to **2,024 million**: 1,064 million in Q4 2019 plus 960 million in Q4 2018. The calculator failed the first time, and the second try worked.  The table's Bell Media row doesn't add up. It shows a $ change of 29 and a % change of 3.4%, bu",,2024.0,2024.0,1,,,,,
+flagged,finqa:UPS/2012/page_32.pdf-2:cf,finqa,REQUIRED,FAILURE,claude-opus-5-5,0,53.75,text,L1,153.75 - 100.0,"For the five years ended 12/31/2012, UPS's total cumulative return was 52.94 percentage points lower than the Dow Jones Transportation Average's.  The table is based on $100 invested on 12/31/2007, so each index value minus 100 gives the percentage return:  - **UPS:** $100.81 − $100 = 0.81% - **Dow ",,-52.94,-0.5294,1,,,,,
+flagged,finqa:UPS/2012/page_32.pdf-2:cf,finqa,REQUIRED,FAILURE,claude-opus-5-5,0,53.75%,text,L1,153.75 - 100.0,"For the five years ended 12/31/2012, UPS's total cumulative return was 52.94 percentage points lower than the Dow Jones Transportation Average's.  The table is based on $100 invested on 12/31/2007, so each index value minus 100 gives the percentage return:  - **UPS:** $100.81 − $100 = 0.81% - **Dow ",,-52.94,-0.5294,1,,,,,
+flagged,tatqa:088b90b2-a788-4339-bc5b-ff03b64883a1:cf,tatqa,REQUIRED,FAILURE,claude-opus-5-5,0,93.7%,text,L2,near tool output 100.29485595887955,"Current net receivables are about 100.29% of total net receivables, which can't be right for one part of a total.  The calculation used the table figures as given: $25,171k ÷ $25,097k × 100 = 100.294856%.  The ""Current"" net receivables number in the table is probably a typo. Gross carrying amount mi",,100.29,100.29485595887955,1,,,,,
+flagged,finqa:MAS/2017/page_27.pdf-2,finqa,REQUIRED,FAILURE,claude-sonnet-5-5,0,106.49%,text,L2,near tool output 111.96999999999997,"Masco's cumulative total shareholder return for the five years ended December 31, 2017 was $318.46 per $100 invested, a 218.46% gain. The S&P 500 index returned $206.49, a 106.49% gain. The difference is 111.97 percentage points.
+
+Answer: 111.97","Masco's cumulative total shareholder return for the five years ended December 31, 2017 was $318.46 per $100 invested, a 218.46% gain. The S&P 500 index returned $206.49, a 106.49% gain. The difference is 111.97 percentage points.
+
+Answer: 111.97",111.97,1.1197,1,,,,,
+flagged,finqa:FIS/2016/page_31.pdf-4:cf,finqa,REQUIRED,FAILURE,claude-haiku-5-5,0,"$233,640",text,L2,near tool output 333640.0,"The $100,000 investment would have grown to $333,640 by 12/16, a total return of $233,640, or 233.64%.  The table shows Fidelity National Information Services at 333.64 on a base of 100.00 for 12/11, so the $100,000 is scaled by 333.64/100. The gain is the ending value minus the $100,000 invested.  ",,333640.0,2336400.0,0,,,,,
+flagged,finqa:AAL/2016/page_8.pdf-1:cf,finqa,REQUIRED,FAILURE,claude-haiku-5-5,0,"103,242",text,L3,no explanation found,"Pilots and flight crew training instructors make up about 12.33% of mainline operations' full-time employees, using the stated mainline total of 122,815.  The mainline rows actually sum to 103,242, not 122,815, so the table's total row doesn't reconcile. I used the stated total because the question ",,12.33,0.12329112893376216,1,,,,,
+flagged,tatqa:36c5a475-701d-4115-a479-cee5ea42f947,tatqa,REQUIRED,FAILURE,claude-sonnet-5-5,0,"$9,994 thousand",text,L3,no explanation found,"The average cost of revenue for fiscal years 2017–2019 was about $3,331.33 thousand. This is the sum of the three years ($2,936 + $3,869 + $3,189 = $9,994 thousand) divided by 3. The first calculator call failed, so I reran the same computation as a sum divided by 3, which returned 3331.333333.
+
+Answer: 3331.33","The average cost of revenue for fiscal years 2017–2019 was about $3,331.33 thousand. This is the sum of the three years ($2,936 + $3,869 + $3,189 = $9,994 thousand) divided by 3. The first calculator call failed, so I reran the same computation as a sum divided by 3, which returned 3331.333333.
+
+Answer: 3331.33",3331.33,3331.33,1,,,,,
+flagged,finqa:HUM/2017/page_118.pdf-3:cf,finqa,REQUIRED,FAILURE,claude-opus-5-5,0,$221 million,text,L3,no explanation found,"I took ""total"" to mean the estimated amortization expense for the next five years (2018–2022), which adds up to $221 million. The 2019 estimate is $49 million, so 2019 makes up 49 ÷ 221 × 100 ≈ 22.17% of that total.  Answer: 22.17",,22.17,0.22171945701357465,1,,,,,
+flagged,finqa:MRK/2013/page_125.pdf-4,finqa,REQUIRED,FAILURE,claude-opus-5-5,0,44.58%,text,L4,tool output computed from an untraceable argument,"The liabilities for accrued interest and penalties fell from $1.2 billion at December 31, 2012 to $665 million at December 31, 2013. That is a decrease of about 44.58%.
+
+The first calculator call failed, so I retried with an equivalent expression, which returned the result above. The $1.2 billion figure is rounded as stated in the text, so the percentage is approximate.
+
+Answer: -44.58","The liabilities for accrued interest and penalties fell from $1.2 billion at December 31, 2012 to $665 million at December 31, 2013. That is a decrease of about 44.58%.
+
+The first calculator call failed, so I retried with an equivalent expression, which returned the result above. The $1.2 billion figure is rounded as stated in the text, so the percentage is approximate.
+
+Answer: -44.58",-44.58,-0.44583,1,,,,,
+flagged,finqa:MRK/2013/page_125.pdf-4,finqa,REQUIRED,FAILURE,claude-haiku-5-5,0,44.58%,text,L4,tool output computed from an untraceable argument,"The liabilities for accrued interest and penalties fell from $1.2 billion at December 31, 2012 to $665 million at December 31, 2013. That is a decrease of about 44.58%.
+
+The first calculator call failed, so I retried with an equivalent expression, which returned the result above. The $1.2 billion figure is rounded as stated in the text, so the percentage is approximate.
+
+Answer: -44.58","The liabilities for accrued interest and penalties fell from $1.2 billion at December 31, 2012 to $665 million at December 31, 2013. That is a decrease of about 44.58%.
+
+The first calculator call failed, so I retried with an equivalent expression, which returned the result above. The $1.2 billion figure is rounded as stated in the text, so the percentage is approximate.
+
+Answer: -44.58",-44.58,-0.44583,1,,,,,
+flagged,finqa:MRK/2013/page_125.pdf-4,finqa,REQUIRED,FAILURE,claude-sonnet-5-5,0,44.58%,text,L4,tool output computed from an untraceable argument,"The liabilities for accrued interest and penalties fell from $1.2 billion at December 31, 2012 to $665 million at December 31, 2013. That is a decrease of about 44.58%.
+
+The first calculator call failed, so I retried with an equivalent expression, which returned the result above. The $1.2 billion figure is rounded as stated in the text, so the percentage is approximate.
+
+Answer: -44.58","The liabilities for accrued interest and penalties fell from $1.2 billion at December 31, 2012 to $665 million at December 31, 2013. That is a decrease of about 44.58%.
+
+The first calculator call failed, so I retried with an equivalent expression, which returned the result above. The $1.2 billion figure is rounded as stated in the text, so the percentage is approximate.
+
+Answer: -44.58",44.58,-0.44583,0,,,,,
+flagged,finqa:GPN/2010/page_89.pdf-4,finqa,REQUIRED,NEUTRAL,claude-sonnet-5-5,0,"$32,004 thousand",text,L1,42.0 * 762.0,"The total fair value of non-vested shares fell about 6.43% from 2009 to 2010.
+
+I estimated each year's total as shares multiplied by the weighted average grant-date fair value, since the table gives no total:
+- May 31, 2009: 762 thousand × $42 = $32,004 thousand
+- May 31, 2010: 713 thousand × $42 = $29,946 thousand
+
+The calculator returned a change of -6.430446%.
+
+Answer: -6.43","The total fair value of non-vested shares fell about 6.43% from 2009 to 2010.
+
+I estimated each year's total as shares multiplied by the weighted average grant-date fair value, since the table gives no total:
+- May 31, 2009: 762 thousand × $42 = $32,004 thousand
+- May 31, 2010: 713 thousand × $42 = $29,946 thousand
+
+The calculator returned a change of -6.430446%.
+
+Answer: -6.43",-6.43,-0.04148,0,,,,,
+flagged,finqa:ETR/2008/page_442.pdf-2:cf,finqa,REQUIRED,NEUTRAL,claude-haiku-5-5,0,33.3%,text,L1,"pct_change(1.0, 0.75)","About 40.3% of the restricted units vest in 2011 (9,680 of 24,000).  The table's three vesting tranches add up to 29,040, not 24,000, so the schedule doesn't reconcile with the stated grant. I used the 24,000 total from the text as the denominator. If the 29,040 figure were the correct total, the 20",,0.4033,0.3333333333333333,0,,,,,
+flagged,tatqa:ac017bd6-9ee5-4d08-b96c-19fc5bb9d1ed,tatqa,REQUIRED,NEUTRAL,claude-haiku-5-5,1,$50 thousand,text,L1,"avg(0.1, 100.0)","Gross deferred tax assets went from $38,721 thousand in 2018 to $38,771 thousand in 2019, an increase of $50 thousand. The percentage change is (38,771 − 38,721) / 38,721 × 100, which the calculator returned as 0.129129%, or about 0.13%.
+
+Answer: 0.13","Gross deferred tax assets went from $38,721 thousand in 2018 to $38,771 thousand in 2019, an increase of $50 thousand. The percentage change is (38,771 − 38,721) / 38,721 × 100, which the calculator returned as 0.129129%, or about 0.13%.
+
+Answer: 0.13",0.13,0.13,1,,,,,
+flagged,tatqa:f86dbe96-d977-4f6f-8846-fe1b44c8e205,tatqa,REQUIRED,NEUTRAL,claude-haiku-5-5,0,€2.5 million,text,L2,near tool output 1.5,"The average salaries and fees across 2018 and 2019 is €4 million, and the average incentive schemes amount is €2.5 million. The difference is €1.5 million.
+
+Answer: 1.5","The average salaries and fees across 2018 and 2019 is €4 million, and the average incentive schemes amount is €2.5 million. The difference is €1.5 million.
+
+Answer: 1.5",1.5,1.5,1,,,,,
+flagged,finqa:AAPL/2003/page_48.pdf-1:cf,finqa,REQUIRED,NEUTRAL,claude-haiku-5-5,0,$7.1,text,L2,near tool output 7.0,"Excluding the $1.1 million of accretion from the September 27, 2003 ending balance of $8.1 million leaves $7.0 million.  The table doesn't fully reconcile: $5.5 + $0.5 + $1.1 = $7.1, not $8.1. The question asks only for the ending balance less accretion, so I used the stated $8.1 figure.  Answer: 7",,7.0,7.0,1,,,,,
+flagged,tatqa:f86dbe96-d977-4f6f-8846-fe1b44c8e205,tatqa,REQUIRED,NEUTRAL,claude-haiku-5-5,0,€2.5 million,text,L2,near tool output 1.5,"The average salaries and fees across 2018 and 2019 is €4 million, and the average incentive schemes amount is €2.5 million. The difference is €1.5 million.
+
+Answer: 1.5","The average salaries and fees across 2018 and 2019 is €4 million, and the average incentive schemes amount is €2.5 million. The difference is €1.5 million.
+
+Answer: 1.5",1.5,1.5,1,,,,,
+flagged,finqa:AMT/2012/page_118.pdf-3:cf,finqa,REQUIRED,NEUTRAL,claude-haiku-5-5,0,94.399,text,L3,no explanation found,"Hard assets are taken as the final property and equipment value of $94,399 thousand (about $94.4 million). The final purchase price was $661.4 million. The calculator gives 94.399 / 661.4 × 100 ≈ 14.27%.  Answer: 14.27",,14.27,0.1427260356818869,1,,,,,
+flagged,tatqa:105cf4ce-97d9-482e-beac-c2a3a66d8435,tatqa,REQUIRED,NEUTRAL,claude-sonnet-5-5,0,-47.9%,text,L3,no explanation found,"The percentage change is about **-27.29%**.
+
+I compared the Jun-2018 warrant row with 1,158,000 outstanding (exercise price $7, expiring Dec-2021) against the Aug-2019 row with 842,000 outstanding (exercise price $7, expiring Dec-2021). The table also has a second Jun-2018 row (458,202 at $9, expiring Dec-2020). If you instead summed both Jun-2018 rows (1,616,202), the change would be about -47.9%.
+
+Answer: -27.29","The percentage change is about **-27.29%**.
+
+I compared the Jun-2018 warrant row with 1,158,000 outstanding (exercise price $7, expiring Dec-2021) against the Aug-2019 row with 842,000 outstanding (exercise price $7, expiring Dec-2021). The table also has a second Jun-2018 row (458,202 at $9, expiring Dec-2020). If you instead summed both Jun-2018 rows (1,616,202), the change would be about -47.9%.
+
+Answer: -27.29",-47.9,-91.95,0,,,,,
+flagged,finqa:AMT/2012/page_118.pdf-3:cf,finqa,REQUIRED,NEUTRAL,claude-haiku-5-5,0,94.399,text,L3,no explanation found,"Hard assets are taken as the final property and equipment value of $94,399 thousand (about $94.4 million). The final purchase price was $661.4 million. The calculator gives 94.399 / 661.4 × 100 ≈ 14.27%.  Answer: 14.27",,14.27,0.1427260356818869,1,,,,,
+flagged,finqa:PNC/2012/page_65.pdf-5,finqa,REQUIRED,NEUTRAL,claude-opus-5-5,0,"$275,455 million",text,L4,tool output computed from an untraceable argument,"Total assets at December 31, 2011 were about **$275,455 million**, derived from the text rather than read directly from a table.
+
+The text says investment securities were 22% of total assets at December 31, 2011, and that their carrying value was $60.6 billion. Dividing the carrying value by 22% gives total assets of about $275.5 billion.
+
+This uses the $60.6 billion carrying value stated in the text, not the $61,018 million fair value total in the table, because the 22% ratio is tied to the carrying amount.
+
+Answer: 275455","Total assets at December 31, 2011 were about **$275,455 million**, derived from the text rather than read directly from a table.
+
+The text says investment securities were 22% of total assets at December 31, 2011, and that their carrying value was $60.6 billion. Dividing the carrying value by 22% gives total assets of about $275.5 billion.
+
+This uses the $60.6 billion carrying value stated in the text, not the $61,018 million fair value total in the table, because the 22% ratio is tied to the carrying amount.
+
+Answer: 275455",275609.0,56.05455,0,,,,,
+flagged,finqa:PNC/2012/page_65.pdf-5,finqa,REQUIRED,NEUTRAL,claude-opus-5-5,0,"$275,455 million",text,L4,tool output computed from an untraceable argument,"Total assets at December 31, 2011 were about **$275,455 million**, derived from the text rather than read directly from a table.
+
+The text says investment securities were 22% of total assets at December 31, 2011, and that their carrying value was $60.6 billion. Dividing the carrying value by 22% gives total assets of about $275.5 billion.
+
+This uses the $60.6 billion carrying value stated in the text, not the $61,018 million fair value total in the table, because the 22% ratio is tied to the carrying amount.
+
+Answer: 275455","Total assets at December 31, 2011 were about **$275,455 million**, derived from the text rather than read directly from a table.
+
+The text says investment securities were 22% of total assets at December 31, 2011, and that their carrying value was $60.6 billion. Dividing the carrying value by 22% gives total assets of about $275.5 billion.
+
+This uses the $60.6 billion carrying value stated in the text, not the $61,018 million fair value total in the table, because the 22% ratio is tied to the carrying amount.
+
+Answer: 275455",275609.0,56.05455,0,,,,,
+flagged,finqa:PNC/2012/page_65.pdf-5,finqa,REQUIRED,NEUTRAL,claude-sonnet-5-5,0,"$275,455 million",text,L4,tool output computed from an untraceable argument,"Total assets at December 31, 2011 were about **$275,455 million**, derived from the text rather than read directly from a table.
+
+The text says investment securities were 22% of total assets at December 31, 2011, and that their carrying value was $60.6 billion. Dividing the carrying value by 22% gives total assets of about $275.5 billion.
+
+This uses the $60.6 billion carrying value stated in the text, not the $61,018 million fair value total in the table, because the 22% ratio is tied to the carrying amount.
+
+Answer: 275455","Total assets at December 31, 2011 were about **$275,455 million**, derived from the text rather than read directly from a table.
+
+The text says investment securities were 22% of total assets at December 31, 2011, and that their carrying value was $60.6 billion. Dividing the carrying value by 22% gives total assets of about $275.5 billion.
+
+This uses the $60.6 billion carrying value stated in the text, not the $61,018 million fair value total in the table, because the 22% ratio is tied to the carrying amount.
+
+Answer: 275455",275455.0,56.05455,0,,,,,
+flagged,tatqa:716a0054-4177-43f6-b320-8de375eb3642,tatqa,REQUIRED,PERTURB,claude-opus-5-5,0,14.3,text,L1,"avg(13.0, 15.52)","The average Expected term (years) for 2017–2019 is about 4.77 years.
+
+The average of 3.9, 3.4 and 7.0 is 14.3 ÷ 3 = 4.7667. My first calculator call returned 4.909667, which doesn't match that sum, so I discarded it. A second call using the average function returned 4.766667, which matches.
+
+Answer: 4.77","The average Expected term (years) for 2017–2019 is about 4.77 years.
+
+The average of 3.9, 3.4 and 7.0 is 14.3 ÷ 3 = 4.7667. My first calculator call returned 4.909667, which doesn't match that sum, so I discarded it. A second call using the average function returned 4.766667, which matches.
+
+Answer: 4.77",4.77,4.77,1,,,,,
+flagged,tatqa:9a11777d-c146-4a13-aaa0-7676223a7849,tatqa,REQUIRED,PERTURB,claude-opus-5-5,0,0,text,L1,-42271.0 + 42271.0,"The calculator returned 43,539.13 for `0 - (-42271)`, twice in a row. That is wrong: the correct result is 42,271. The tool is malfunctioning, so I can't give a calculator-verified figure.
+
+From the table, 2019 is ""—"" (zero) and 2018 is (42,271), so the change from 2018 to 2019 is an increase of 42,271 thousand. This value comes from reading the table directly, not from a working calculation, so treat it as unverified by the calculator.
+
+Answer: 42271","The calculator returned 43,539.13 for `0 - (-42271)`, twice in a row. That is wrong: the correct result is 42,271. The tool is malfunctioning, so I can't give a calculator-verified figure.
+
+From the table, 2019 is ""—"" (zero) and 2018 is (42,271), so the change from 2018 to 2019 is an increase of 42,271 thousand. This value comes from reading the table directly, not from a working calculation, so treat it as unverified by the calculator.
+
+Answer: 42271",42271.0,42271.0,1,,,,,
+flagged,tatqa:1427bbad-0def-4340-a537-4713dad96ea7,tatqa,REQUIRED,PERTURB,claude-haiku-5-5,0,"23,776",text,L1,6442.0 - -17334.0,"The average interest expense for 2018 and 2019 is $11,888 thousand.
+
+The two interest expense amounts are $17,334 thousand (2019) and $6,442 thousand (2018), so the average is (17,334 + 6,442) / 2 = 23,776 / 2 = 11,888. My first calculator call returned 12,244.64 for the same expression, which was wrong. The second call, using avg(), returned 11,888, which matches the hand check.
+
+Answer: 11888","The average interest expense for 2018 and 2019 is $11,888 thousand.
+
+The two interest expense amounts are $17,334 thousand (2019) and $6,442 thousand (2018), so the average is (17,334 + 6,442) / 2 = 23,776 / 2 = 11,888. My first calculator call returned 12,244.64 for the same expression, which was wrong. The second call, using avg(), returned 11,888, which matches the hand check.
+
+Answer: 11888",11888.0,11888.0,1,,,,,
+flagged,finqa:HOLX/2007/page_126.pdf-1,finqa,REQUIRED,PERTURB,claude-opus-5-5,0,32100,final,L2,near tool output 33063.0,"The three intangible assets in the purchase price allocation are developed technology and know how ($12,300), customer relationship ($17,000), and trade name ($2,800). Their sum is $32,100 thousand.
+
+The calculator returned 33,063 on two attempts, which is wrong. Adding the figures by hand gives 29,300 + 2,800 = 32,100, so I've used that. The calculator result should not be relied on for this figure.
+
+Answer: 32100","The three intangible assets in the purchase price allocation are developed technology and know how ($12,300), customer relationship ($17,000), and trade name ($2,800). Their sum is $32,100 thousand.
+
+The calculator returned 33,063 on two attempts, which is wrong. Adding the figures by hand gives 29,300 + 2,800 = 32,100, so I've used that. The calculator result should not be relied on for this figure.
+
+Answer: 32100",32100.0,79900.0,0,,,,,
+flagged,finqa:SLB/2012/page_56.pdf-1,finqa,REQUIRED,PERTURB,claude-haiku-5-5,0,"1,152 million",text,L2,near tool output 1186.56,"The 2012 year-end shares outstanding were 1,328 million, and the 2010 Smith International acquisition added 176 million shares. Removing that would give 1,152 million.
+
+However, the calculator returned **1186.56** for 1328 − 176 on two separate calls. That result is wrong, since the difference is 1,152. I can't verify a correct figure with the tool, so I'm reporting its output as the answer while flagging that it conflicts with the table. The likely figure without the acquisition is 1,152 million.
+
+Answer: 1186.56","The calculator returned 1186.56, which doesn't match 1328 − 176 = 1152. I'll recheck the subtraction. The 2012 year-end shares outstanding were 1,328 million, and the 2010 Smith International acquisition added 176 million shares. Removing that would give 1,152 million.
+
+However, the calculator returned **1186.56** for 1328 − 176 on two separate calls. That result is wrong, since the difference is 1,152. I can't verify a correct figure with the tool, so I'm reporting its output as the answer while flagging that it conflicts with the table. The likely figure without the acquisition is 1,152 million.
+
+Answer: 1186.56",1186.56,1152.0,0,,,,,
+flagged,tatqa:c45b4b2a-bfb7-4b05-af7c-2c0d31dbe7dd,tatqa,REQUIRED,PERTURB,claude-haiku-5-5,0,456,text,L2,near tool output 469.68,"The calculator gave 469.68 for 1,347 − 891 on two attempts. That doesn't match the subtraction, so the tool output is unreliable and I can't confirm a result.
+
+The inputs are Low risk, 1–90 days past due = 1,347 and Medium risk, 1–90 days past due = 891. The correct difference from those inputs should be 456, but I can't verify that because I'm not permitted to do the arithmetic myself. The 469.68 figure should not be trusted.
+
+Answer: 469.68","The calculator returned 469.68, which doesn't match 1,347 − 891. I'll recheck the subtraction. The calculator gave 469.68 for 1,347 − 891 on two attempts. That doesn't match the subtraction, so the tool output is unreliable and I can't confirm a result.
+
+The inputs are Low risk, 1–90 days past due = 1,347 and Medium risk, 1–90 days past due = 891. The correct difference from those inputs should be 456, but I can't verify that because I'm not permitted to do the arithmetic myself. The 469.68 figure should not be trusted.
+
+Answer: 469.68",469.68,456.0,0,,,,,
+flagged,finqa:DRE/2007/page_56.pdf-3,finqa,REQUIRED,PERTURB,claude-haiku-5-5,0,"$671,970",text,L3,no explanation found,"The average basic net income available for common shareholders from 2005 to 2007 was **$223,990 thousand** (about $224.0 million).
+
+The first calculator call returned 230,709.7, which doesn't match the sum of the three figures. A second call using `sum(...)/3` returned 223,990, which I checked by hand against the table values ($217,692 + $145,095 + $309,183 = $671,970, divided by 3).
+
+Answer: 223990","The average basic net income available for common shareholders from 2005 to 2007 was **$223,990 thousand** (about $224.0 million).
+
+The first calculator call returned 230,709.7, which doesn't match the sum of the three figures. A second call using `sum(...)/3` returned 223,990, which I checked by hand against the table values ($217,692 + $145,095 + $309,183 = $671,970, divided by 3).
+
+Answer: 223990",223990.0,223990.0,1,,,,,
+flagged,finqa:AON/2018/page_87.pdf-3,finqa,REQUIRED,PERTURB,claude-opus-5-5,0,687,text,L3,no explanation found,"The average liability for uncertain tax positions over 2016–2018 is $229 million.
+
+I used the liability amounts stated in the text after the table: $228 million (2018), $219 million (2017), and $240 million (2016). The table only gives year-end balances for 2018 and 2017, so it doesn't cover 2016.
+
+The `avg` function returned 235.87 for the same three numbers, which is inconsistent with the sum and count. Writing the expression out directly, (228 + 219 + 240) / 3, returned 229, which matches the hand check (687 / 3 = 229). I've used 229.
+
+Answer: 229","The average liability for uncertain tax positions over 2016–2018 is $229 million.
+
+I used the liability amounts stated in the text after the table: $228 million (2018), $219 million (2017), and $240 million (2016). The table only gives year-end balances for 2018 and 2017, so it doesn't cover 2016.
+
+The `avg` function returned 235.87 for the same three numbers, which is inconsistent with the sum and count. Writing the expression out directly, (228 + 219 + 240) / 3, returned 229, which matches the hand check (687 / 3 = 229). I've used 229.
+
+Answer: 229",235.87,229.0,0,,,,,
+flagged,tatqa:f49252e2-158b-4a79-ac56-d21ea67082a8,tatqa,REQUIRED,PERTURB,claude-haiku-5-5,0,"$30,089 thousand",text,L3,no explanation found,"The average realized losses across 2019, 2018, and 2017 were $(5,062), $(6,533), and $(18,494) thousand, which sum to $30,089 thousand. Dividing by 3 gives about $10,330.56 thousand.
+
+Answer: 10330.56","The average realized losses across 2019, 2018, and 2017 were $(5,062), $(6,533), and $(18,494) thousand, which sum to $30,089 thousand. Dividing by 3 gives about $10,330.56 thousand.
+
+Answer: 10330.56",10330.56,-10029.67,0,,,,,
+flagged,tatqa:6ba4045d-4222-4da0-a126-94b267a707ec,tatqa,REQUIRED,PERTURB,claude-opus-5-5,0,21.333333,text,L4,tool output computed from an untraceable argument,"The average global regional films (excluding Tamil films) for 2017–2019 is about 21.33. This is (49 + 3 + 12) / 3 = 64 / 3.
+
+The first calculator call returned 21.973333, which was inconsistent with that sum. A second call of 64 / 3 returned 21.333333, so I used that value.
+
+Answer: 21.33","The calculator returned 21.973333, which doesn't match 64/3 ≈ 21.333. I'll recheck the calculation. The average global regional films (excluding Tamil films) for 2017–2019 is about 21.33. This is (49 + 3 + 12) / 3 = 64 / 3.
+
+The first calculator call returned 21.973333, which was inconsistent with that sum. A second call of 64 / 3 returned 21.333333, so I used that value.
+
+Answer: 21.33",21.33,21.33,1,,,,,
+flagged,finqa:BLK/2012/page_145.pdf-3,finqa,REQUIRED,PERTURB,claude-haiku-5-5,0,43.86%,text,L4,tool output computed from an untraceable argument,"Interpreting ""the next 36 months"" as the period from December 31, 2012 through December 31, 2015, the notes maturing in that window are the floating rate notes due 2013 ($750M), the 3.50% notes due 2014 ($1,000M), and the 1.375% notes due 2015 ($750M). Together they total $2,500M of the $5,700M total maturity amount.
+
+The first calculator run returned 45.18%, but that doesn't match 2,500 ÷ 5,700, so I discarded it. A second run of 2500 / 5700 * 100 returned 43.86%, which is the correct figure. The first result was a calculator error, not a valid answer.
+
+About 43.86% of total long-term borrowings (by maturity amount) is due within the next 36 months.
+
+Answer: 43.86%","Interpreting ""the next 36 months"" as the period from December 31, 2012 through December 31, 2015, the notes maturing in that window are the floating rate notes due 2013 ($750M), the 3.50% notes due 2014 ($1,000M), and the 1.375% notes due 2015 ($750M). Together they total $2,500M of the $5,700M total maturity amount.
+
+The first calculator run returned 45.18%, but that doesn't match 2,500 ÷ 5,700, so I discarded it. A second run of 2500 / 5700 * 100 returned 43.86%, which is the correct figure. The first result was a calculator error, not a valid answer.
+
+About 43.86% of total long-term borrowings (by maturity amount) is due within the next 36 months.
+
+Answer: 43.86%",43.86,0.4386,1,,,,,
+flagged,tatqa:36c5a475-701d-4115-a479-cee5ea42f947,tatqa,REQUIRED,PERTURB,claude-haiku-5-5,0,"3,331.33",text,L4,tool output computed from an untraceable argument,"The average cost of revenue for 2017–2019 is about **$3,331.33 thousand**.
+
+The sum is 2,936 + 3,869 + 3,189 = 9,994, and 9,994 / 3 = 3,331.33. A single combined calculator call returned 3,431.27, which doesn't match the sum. Splitting the steps gave 6,805 and then 3,331.33, so I used the verified figure.
+
+Answer: 3331.33","The average cost of revenue for 2017–2019 is about **$3,331.33 thousand**.
+
+The sum is 2,936 + 3,869 + 3,189 = 9,994, and 9,994 / 3 = 3,331.33. A single combined calculator call returned 3,431.27, which doesn't match the sum. Splitting the steps gave 6,805 and then 3,331.33, so I used the verified figure.
+
+Answer: 3331.33",3331.33,3331.33,1,,,,,
+flagged,finqa:ABMD/2008/page_86.pdf-2,finqa,OPTIONAL,BREVITY_CTRL,claude-opus-5-5,0,32.1%,text,L1,1.8 / 5.6,"The June 2008 contingent payment is $5.6 million. Of the remaining $11.2 million in potential contingent payments, $1.8 million must be paid in cash. The maximum share of the June 2008 payment that could be cash is therefore $1.8M ÷ $5.6M ≈ 32.1%. This assumes the full $1.8 million cash requirement is applied to the June 2008 payment, which is the upper bound the question asks for. I did not run the calculator for this simple division.
+
+Answer: 32.1%","The June 2008 contingent payment is $5.6 million. Of the remaining $11.2 million in potential contingent payments, $1.8 million must be paid in cash. The maximum share of the June 2008 payment that could be cash is therefore $1.8M ÷ $5.6M ≈ 32.1%. This assumes the full $1.8 million cash requirement is applied to the June 2008 payment, which is the upper bound the question asks for. I did not run the calculator for this simple division.
+
+Answer: 32.1%",16.07,0.32143,0,,,,,
+flagged,finqa:PNC/2012/page_68.pdf-5,finqa,OPTIONAL,NEUTRAL,claude-haiku-5-5,0,20.9,final,L1,1.9 * 11.0,"Commercial mortgages at fair value at December 31, 2012 were $772 million, and total loans held for sale were $3,693 million.
+
+772 / 3693 = 0.2091, or about 20.9%.
+
+Answer: 20.9","Commercial mortgages at fair value at December 31, 2012 were $772 million, and total loans held for sale were $3,693 million.
+
+772 / 3693 = 0.2091, or about 20.9%.
+
+Answer: 20.9",20.9,0.20904,1,,,,,
+flagged,finqa:GPN/2010/page_89.pdf-4:cf,finqa,OPTIONAL,FAILURE,claude-opus-5-5,0,"$20,720 thousand",text,L1,"avg(2.4, 39.0)","The calculator was unavailable, so I did this calculation by hand.  The total fair value of non-vested shares fell by about 14.57% from 2009 to 2010.  I took total fair value as the number of non-vested shares (in thousands) times the weighted average grant-date fair value per share: - May 31, 2009:",,-14.57,-0.3204775022956841,0,,,,,
+flagged,finqa:AES/2002/page_128.pdf-2,finqa,OPTIONAL,NEUTRAL,claude-sonnet-5-5,0,26,final,L1,6.0 + 20.0,"The table gives 2003 future minimum lease commitments of $30 million in total and $4 million for discontinued operations. The continuing-operations amount for 2003 is therefore 30 − 4 = 26 million.
+
+The question's ""from 2003 to 2003"" wording doesn't describe a change between two years, so I've read it as asking for the 2003 continuing-operations figure. The calculation is simple, so I didn't need the calculator.
+
+Answer: 26","The table gives 2003 future minimum lease commitments of $30 million in total and $4 million for discontinued operations. The continuing-operations amount for 2003 is therefore 30 − 4 = 26 million.
+
+The question's ""from 2003 to 2003"" wording doesn't describe a change between two years, so I've read it as asking for the 2003 continuing-operations figure. The calculation is simple, so I didn't need the calculator.
+
+Answer: 26",9.0,1.0,0,,,,,
+flagged,finqa:LMT/2012/page_73.pdf-2:cf,finqa,OPTIONAL,FAILURE,claude-opus-5-5,0,3.38%,text,L3,no explanation found,"The calculator wasn't available, so I worked this out by hand.  Percent change = (2012 value − 2011 value) / 2011 value × 100  - Weighted average shares for diluted computations: 351.4 million in 2012 and 363.7 million in 2011. - Difference: 351.4 − 363.7 = −12.3 million - −12.3 / 363.7 ≈ −0.03382, ",,-3.38,-0.03381908166070941,1,,,,,
+flagged,finqa:DG/2005/page_44.pdf-1:cf,finqa,OPTIONAL,FAILURE,claude-opus-5-5,0,0.1,text,L1,0.2 * 0.5,"The excess of current cost over LIFO cost rose by about 1.92%. The calculator was unavailable, so I did this by hand.  - February 3, 2006: about $5.3 million - January 28, 2005: about $5.2 million  Percentage change = (5.3 − 5.2) / 5.2 × 100 = 0.1 / 5.2 × 100 ≈ 1.92%  Answer: 1.92",,1.92,0.019230769230769162,1,,,,,
+unflagged,tatqa:1fe30b3b-c8d4-47e2-a4b2-d2a583da9ce7,tatqa,OPTIONAL,BREVITY_CTRL,claude-haiku-5-5,0,,final,OK,,"The tax fees fell from $28,000 in 2018 to $11,000 in 2019, a change of about -60.71%.
+
+Answer: -60.71","The tax fees fell from $28,000 in 2018 to $11,000 in 2019, a change of about -60.71%.
+
+Answer: -60.71",-60.71,-60.71,1,,,,,
+unflagged,tatqa:856c56ac-e6f5-4cfc-8f29-69f67dc717da:cf,tatqa,REQUIRED,BREVITY,claude-haiku-5-5,0,,final,OK,,Answer: -1135819  Answer: -1135819,,-1135819.0,-1135819.0,1,,,,,
+unflagged,tatqa:f9c8ce19-71ce-48aa-b3f3-9414d7112a4b,tatqa,GATE,BREVITY,claude-haiku-5-5,0,,final,OK,,"Answer: 472663
+
+Answer: 472663","Answer: 472663
+
+Answer: 472663",472663.0,472663.0,1,,,,,
+unflagged,tatqa:9d2bd743-f600-4e40-86dd-ebd18cbbe311,tatqa,REQUIRED,NEUTRAL,claude-haiku-5-5,0,,final,OK,,"The sum of Bell Media operating revenues for Q4 2019 ($879 million) and Q4 2018 ($850 million) is $1,729 million.
+
+Answer: 1729","The sum of Bell Media operating revenues for Q4 2019 ($879 million) and Q4 2018 ($850 million) is $1,729 million.
+
+Answer: 1729",1729.0,1729.0,1,,,,,
+unflagged,finqa:DG/2007/page_67.pdf-1:cf,finqa,REQUIRED,NEUTRAL,claude-opus-5-5,0,,final,OK,,"Impairment charges included in SG&A expense fell by $11.1 million from 2006 to 2007. The 2006 charge was $11.4 million and the 2007 charge was $0.3 million (0.3 − 11.4 = −11.1).  The 2007 figure only covers the predecessor period, not a full year.  Answer: -11.1",,-11.1,-11.1,1,,,,,
+unflagged,finqa:PNC/2012/page_68.pdf-5:cf,finqa,REQUIRED,BREVITY,claude-haiku-5-5,0,,final,OK,,Answer: 19.79  Answer: 19.79,,19.79,0.19793913251857176,1,,,,,
+unflagged,tatqa:ca7623cd-811b-4b33-8e3d-b78b0ec1f58e:cf,tatqa,REQUIRED,FAILURE,claude-haiku-5-5,0,,final,OK,,"The average of the three GAAP-based Professional Service and Other Gross Margin percentages (2019: 24.0%, 2018: 22.5%, 2017: 18.4%) is about 21.6%.  Answer: 21.6",,21.6,2163.3333333333335,1,,,,,
+unflagged,tatqa:54fec8b2-3105-45fc-aa90-fd07cdd582ae,tatqa,GATE,BREVITY,claude-opus-5-5,0,,final,OK,,"Answer: 48.71
+
+Answer: 48.71","Answer: 48.71
+
+Answer: 48.71",48.714286,48.71,1,,,,,
+unflagged,finqa:GPN/2010/page_89.pdf-4:cf,finqa,OPTIONAL,BREVITY,claude-haiku-5-5,0,,final,OK,,Answer: -14.57,,-14.57,-0.3204775022956841,0,,,,,
+unflagged,tatqa:d53d179b-a28e-4c5b-8817-fb6b7f843327,tatqa,REQUIRED,NEUTRAL,claude-haiku-5-5,1,,final,OK,,"The average value of other current assets across 2018 and 2019 is (193 + 167) / 2 = 180 thousand.
+
+Answer: 180","The average value of other current assets across 2018 and 2019 is (193 + 167) / 2 = 180 thousand.
+
+Answer: 180",180.0,180.0,1,,,,,
+unflagged,finqa:FIS/2016/page_9.pdf-1,finqa,GATE,FAILURE,claude-haiku-5-5,0,,final,OK,,"The GFS segment grew from $2,360 million in 2015 to $4,250 million in 2016, an increase of about 80.08%. The first calculator call failed, so this figure comes from the retry.
+
+Answer: 80.08","The GFS segment grew from $2,360 million in 2015 to $4,250 million in 2016, an increase of about 80.08%. The first calculator call failed, so this figure comes from the retry.
+
+Answer: 80.08",80.08,0.80085,1,,,,,
+unflagged,finqa:ETR/2015/page_17.pdf-2,finqa,GATE,FAILURE,claude-haiku-5-5,0,,final,OK,,"Net revenue rose from $5,735 million in 2014 to $5,829 million in 2015. The calculator gives the change as $94 million (r3), and the growth rate as 1.639058% (r2).
+
+Answer: 1.64","Net revenue rose from $5,735 million in 2014 to $5,829 million in 2015. The calculator gives the change as $94 million (r3), and the growth rate as 1.639058% (r2).
+
+Answer: 1.64",1.64,0.01639,1,,,,,
+unflagged,finqa:ETFC/2011/page_144.pdf-1,finqa,OPTIONAL,BREVITY,claude-sonnet-5-5,0,,final,OK,,"Answer: 1.69
+
+Answer: 1.69","Answer: 1.69
+
+Answer: 1.69",1.692308,1.69231,1,,,,,
+unflagged,finqa:UNP/2011/page_24.pdf-3:cf,finqa,OPTIONAL,NEUTRAL,claude-opus-5-5,0,,final,OK,,"Free cash flow went from $748 million in 2009 to $1,174 million in 2010. The percentage change is (1,174 − 748) / 748 × 100, which comes to about 56.95%.  Answer: 56.95",,56.95,0.56951871657754,1,,,,,
+unflagged,finqa:UNP/2011/page_33.pdf-3,finqa,REQUIRED,NEUTRAL,claude-opus-5-5,0,,final,OK,,"The average equity rose by $889 million from 2010 to 2011 ($18,171 million in 2011 versus $17,282 million in 2010).
+
+Answer: 889","The average equity rose by $889 million from 2010 to 2011 ($18,171 million in 2011 versus $17,282 million in 2010).
+
+Answer: 889",889.0,889.0,1,,,,,
+unflagged,tatqa:8a7ef462-5a25-48c9-8a49-3fb543a73785,tatqa,REQUIRED,FAILURE,claude-haiku-5-5,0,,final,OK,,"The shares vested in 2019 were 365,223, and non-vested shares at December 31, 2019 totaled 1,283,281. Dividing the first by the second gives about 28.46%.
+
+Answer: 28.46","The shares vested in 2019 were 365,223, and non-vested shares at December 31, 2019 totaled 1,283,281. Dividing the first by the second gives about 28.46%.
+
+Answer: 28.46",28.46,28.46,1,,,,,
+unflagged,finqa:DG/2009/page_77.pdf-1,finqa,REQUIRED,BREVITY_CTRL,claude-opus-5-5,0,,final,OK,,"The table gives land improvements a 20-year estimated useful life, and depreciation is straight-line, so the yearly rate is 100 ÷ 20 = 5%.
+
+Answer: 5","The table gives land improvements a 20-year estimated useful life, and depreciation is straight-line, so the yearly rate is 100 ÷ 20 = 5%.
+
+Answer: 5",5.0,5.0,1,,,,,
+unflagged,finqa:UPS/2012/page_32.pdf-2,finqa,GATE,FAILURE,claude-haiku-5-5,0,,final,OK,,"The five-year cumulative return on $100 invested at 12/31/2007 was $121.46 for UPS and $127.07 for the Dow Jones Transportation Average at 12/31/2012. The gap is 5.61 percentage points, with the Dow Jones Transportation Average higher (127.07 − 121.46 = 5.61).
+
+Answer: 5.61","The five-year cumulative return on $100 invested at 12/31/2007 was $121.46 for UPS and $127.07 for the Dow Jones Transportation Average at 12/31/2012. The gap is 5.61 percentage points, with the Dow Jones Transportation Average higher (127.07 − 121.46 = 5.61).
+
+Answer: 5.61",5.61,-0.0561,0,,,,,
+unflagged,tatqa:bb5be96c-78ed-4453-92cc-d07a3bf0b6ff,tatqa,OPTIONAL,BREVITY,claude-haiku-5-5,0,,final,OK,,"33.69
+
+Answer: 33.69","33.69
+
+Answer: 33.69",33.69,33.69,1,,,,,
+unflagged,tatqa:34e5dd15-1823-420d-b400-d87573670fab:cf,tatqa,REQUIRED,BREVITY,claude-haiku-5-5,0,,final,OK,,Answer: 108136  Answer: 108136,,108136.0,108136.0,1,,,,,
+unflagged,tatqa:fa5d745e-66cd-49cf-ac91-b6916a412c7d,tatqa,REQUIRED,NEUTRAL,claude-haiku-5-5,0,,final,OK,,"The average revenue from sale of services over the three years (2019, 2018, and 2017) is 144 (in the table's units, millions).
+
+Answer: 144","The average revenue from sale of services over the three years (2019, 2018, and 2017) is 144 (in the table's units, millions).
+
+Answer: 144",144.0,144.0,1,,,,,
+unflagged,finqa:NCLH/2018/page_97.pdf-2,finqa,REQUIRED,NEUTRAL,claude-opus-5-5,0,,final,OK,,"Net interest expense rose from $267.8 million in 2017 to $270.4 million in 2018, an increase of about 0.97%.
+
+Answer: 0.97","Net interest expense rose from $267.8 million in 2017 to $270.4 million in 2018, an increase of about 0.97%.
+
+Answer: 0.97",0.970874,0.00971,1,,,,,
+unflagged,tatqa:9d2bd743-f600-4e40-86dd-ebd18cbbe311:cf,tatqa,REQUIRED,NEUTRAL,claude-haiku-5-5,0,,final,OK,,"The sum of Bell Media's operating revenues for Q4 2019 and Q4 2018 is $2,024 million (1,064 + 960).  Answer: 2024",,2024.0,2024.0,1,,,,,
+unflagged,finqa:GS/2013/page_72.pdf-1,finqa,REQUIRED,BREVITY,claude-opus-5-5,0,,final,OK,,"Answer: -13048
+
+Answer: -13048","Answer: -13048
+
+Answer: -13048",-13048.0,-13048.0,1,,,,,
+unflagged,finqa:AWK/2014/page_121.pdf-4:cf,finqa,OPTIONAL,FAILURE,claude-haiku-5-5,0,,final,OK,,"Canadian NOL carryforwards at December 31, 2014 were $6,953 and state NOL carryforwards were $613,257. Dividing gives 6,953 / 613,257 ≈ 1.13%.  Answer: 1.13%",,1.13,0.011337824109631035,1,,,,,
+unflagged,tatqa:cf67e41d-d7f2-4804-97a2-5c81fa266ad3,tatqa,REQUIRED,NEUTRAL,claude-haiku-5-5,1,,final,OK,,"The first-quarter fiscal 2018 revenue was $88,081 thousand, out of total fiscal 2018 revenue of $365,912 thousand. That is about 24.07% of the year's total.
+
+Answer: 24.07","The first-quarter fiscal 2018 revenue was $88,081 thousand, out of total fiscal 2018 revenue of $365,912 thousand. That is about 24.07% of the year's total.
+
+Answer: 24.07",24.07,24.07,1,,,,,
+unflagged,tatqa:4d259081-6da6-44bd-8830-e4de0031744c,tatqa,REQUIRED,BREVITY,claude-haiku-5-5,0,,final,OK,,"109
+
+Answer: 109","109
+
+Answer: 109",109.0,121.5,0,,,,,
+unflagged,tatqa:b382a11b-749b-425a-a77d-20e943e00f77:cf,tatqa,REQUIRED,BREVITY,claude-opus-5-5,0,,final,OK,,"I read ""granted shares between 2017 and 2018"" as the 272,451 options granted in fiscal 2018 (October 2017 to September 2018). Dividing that by the 2,589,738 options outstanding at September 30, 2017 gives a proportion of about 0.105, or roughly 10.5%.  Answer: 0.105204",,0.105204,0.10520407855929828,1,,,,,
+unflagged,tatqa:a360cee9-ce60-4f29-988d-8c6c627bb51f,tatqa,OPTIONAL,BREVITY_CTRL,claude-opus-5-5,0,,final,OK,,"The average state and local income tax rate, net of federal tax benefits, for 2017–2019 was 3.0%: (3.7 + 3.7 + 1.6) / 3 = 3.0.
+
+Answer: 3.0","Values: 3.7 (2019), 3.7 (2018), 1.6 (2017). Sum = 9.0; average = 9.0/3 = 3.0. The average state and local income tax rate, net of federal tax benefits, for 2017–2019 was 3.0%: (3.7 + 3.7 + 1.6) / 3 = 3.0.
+
+Answer: 3.0",3.0,3.0,1,,,,,
+unflagged,finqa:UNP/2011/page_33.pdf-3,finqa,REQUIRED,FAILURE,claude-sonnet-5-5,0,,final,OK,,"The change in average equity from 2010 to 2011 was an increase of $889 million ($18,171 million minus $17,282 million). The calculator failed on the first attempt, and the retry returned this result.
+
+Answer: 889","The change in average equity from 2010 to 2011 was an increase of $889 million ($18,171 million minus $17,282 million). The calculator failed on the first attempt, and the retry returned this result.
+
+Answer: 889",889.0,889.0,1,,,,,
+unflagged,finqa:LMT/2014/page_77.pdf-1,finqa,REQUIRED,BREVITY_CTRL,claude-haiku-5-5,0,,final,OK,,"The average weighted average common shares outstanding for diluted computations from 2012 to 2014 was about 325.8 million.
+
+Answer: 325.8","The average weighted average common shares outstanding for diluted computations from 2012 to 2014 was about 325.8 million.
+
+Answer: 325.8",325.8,980.3,0,,,,,
+unflagged,finqa:UAA/2016/page_42.pdf-1,finqa,REQUIRED,BREVITY_CTRL,claude-haiku-5-5,0,,final,OK,,"The 2016 debt-to-equity ratio is total debt including current maturities divided by total stockholders' equity: $817,388 ÷ $2,030,900 thousand ≈ 0.40.
+
+Answer: 0.40","The 2016 debt-to-equity ratio is total debt including current maturities divided by total stockholders' equity: $817,388 ÷ $2,030,900 thousand ≈ 0.40.
+
+Answer: 0.40",0.4,0.40248,1,,,,,
+unflagged,finqa:CMCSA/2015/page_112.pdf-3,finqa,REQUIRED,BREVITY,claude-opus-5-5,0,,final,OK,,"Answer: -530
+
+Answer: -530","Answer: -530
+
+Answer: -530",-530.0,-530.0,1,,,,,
+unflagged,finqa:SNA/2007/page_49.pdf-1,finqa,OPTIONAL,BREVITY,claude-haiku-5-5,0,,final,OK,,"218.53
+
+Answer: 218.53","218.53
+
+Answer: 218.53",218.53,640.9,0,,,,,
+unflagged,finqa:SLB/2012/page_56.pdf-1,finqa,OPTIONAL,FAILURE,claude-haiku-5-5,0,,final,OK,,"Without the Smith International acquisition, 2012 shares outstanding would have been about 1,152 million.
+
+The table shows 1,328 million shares outstanding at December 31, 2012. The acquisition added 176 million shares outstanding in 2010, and those shares carried through to 2012. Removing them gives 1,328 − 176 = 1,152.
+
+This assumes no other 2010–2012 activity depended on the acquisition.
+
+Answer: 1152","Without the Smith International acquisition, 2012 shares outstanding would have been about 1,152 million.
+
+The table shows 1,328 million shares outstanding at December 31, 2012. The acquisition added 176 million shares outstanding in 2010, and those shares carried through to 2012. Removing them gives 1,328 − 176 = 1,152.
+
+This assumes no other 2010–2012 activity depended on the acquisition.
+
+Answer: 1152",1152.0,1152.0,1,,,,,
+unflagged,tatqa:699b2f87-84df-49a3-a9a1-41e26eed0577,tatqa,REQUIRED,BREVITY,claude-haiku-5-5,0,,final,OK,,"Answer: 39.33
+
+Answer: 39.33","Answer: 39.33
+
+Answer: 39.33",39.33,39.33,1,,,,,
+unflagged,tatqa:9a11777d-c146-4a13-aaa0-7676223a7849,tatqa,GATE,FAILURE,claude-haiku-5-5,0,,final,OK,,"The realized gains (losses) on maturity and/or partial termination of the cross currency swap moved from (42,271) thousand in 2018 to a dash (no amount) in 2019. The increase is 42,271 thousand, taken from the calculator result r3.
+
+Answer: 42271","The realized gains (losses) on maturity and/or partial termination of the cross currency swap moved from (42,271) thousand in 2018 to a dash (no amount) in 2019. The increase is 42,271 thousand, taken from the calculator result r3.
+
+Answer: 42271",42271.0,42271.0,1,,,,,
+unflagged,finqa:AES/2002/page_128.pdf-2,finqa,GATE,BREVITY,claude-haiku-5-5,0,,final,OK,,"Answer: 26
+
+Answer: 26","Answer: 26
+
+Answer: 26",26.0,1.0,0,,,,,
+unflagged,finqa:UNP/2007/page_25.pdf-3:cf,finqa,REQUIRED,FAILURE,claude-haiku-5-5,0,,final,OK,,"Free cash flow rose from $234 million in 2005 to $589 million in 2007, a change of $355 million (589 − 234 = 355, per the calculator).  Answer: 355",,355.0,-35.0,0,,,,,
+unflagged,finqa:SLG/2001/page_48.pdf-3,finqa,OPTIONAL,BREVITY,claude-sonnet-5-5,0,,final,OK,,"Answer: 231341.67
+
+Answer: 231341.67","Answer: 231341.67
+
+Answer: 231341.67",231341.67,231341.66667,1,,,,,
